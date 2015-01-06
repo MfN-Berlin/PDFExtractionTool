@@ -1,0 +1,2327 @@
+<article>
+  <front>
+    <journal-meta>
+      <journal-title-group>
+        <journal-title>Biodiversity Data Journal 2: e4123
+doi: 10.3897/BDJ.2.e4123</journal-title>
+      </journal-title-group>
+    </journal-meta>
+    <article-meta>
+      <title-group>
+        <article-title>A database of life-history traits of European amphibians</article-title>
+      </title-group>
+      <article-id pub-id-type="doi">10.3897/BDJ.2.e4123</article-id>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <string-name>Audrey Trochet</string-name>
+          <email>(audrey.trochet@univ-tlse3.fr)</email>
+          <xref ref-type="aff" rid="0">0</xref>
+          <xref ref-type="aff" rid="1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Sylvain Moulherat</string-name>
+          <xref ref-type="aff" rid="4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Olivier Calvez</string-name>
+          <xref ref-type="aff" rid="1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Virginie M Stevens</string-name>
+          <xref ref-type="aff" rid="1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Jean Clobert</string-name>
+          <xref ref-type="aff" rid="1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Dirk S Schmeller</string-name>
+          <xref ref-type="aff" rid="2">2</xref>
+          <xref ref-type="aff" rid="3">3</xref>
+        </contrib>
+        <aff id="0">
+          <label>0</label>
+          <institution>Université Toulouse 3 Paul Sabatier, CNRS, ENFA, UMR5174 EDB (Laboratoire Évolution &amp; Diversité Biologique)</institution>
+          ,
+          <addr-line>Toulouse</addr-line>
+          ,
+          <country country="FR">France</country>
+        </aff>
+        <aff id="1">
+          <label>1</label>
+          <institution>Station d'Ecologie Expérimentale du CNRS at Moulis</institution>
+          ,
+          <addr-line>Moulis</addr-line>
+          ,
+          <country country="FR">France</country>
+        </aff>
+        <aff id="2">
+          <label>2</label>
+          <institution>Helmholtz-Centre for Environmental Research - UFZ, Department of Conservation Biology</institution>
+          ,
+          <addr-line>Leipzig</addr-line>
+          ,
+          <country country="DE">Germany</country>
+        </aff>
+        <aff id="3">
+          <label>3</label>
+          <institution>Université de Toulouse; UPS, INPT; Laboratoire Ecologie Fonctionnelle et Environnement (Ecolab); CNRS</institution>
+          ,
+          <addr-line>Toulouse</addr-line>
+          ,
+          <country country="FR">France</country>
+        </aff>
+        <aff id="4">
+          <label>4</label>
+          <institution>TerrOïko</institution>
+          ,
+          <addr-line>Revel</addr-line>
+          ,
+          <country country="FR">France</country>
+        </aff>
+      </contrib-group>
+      <abstract>
+        <p>In the current context of climate change and landscape fragmentation, efficient conservation strategies require the explicit consideration of life history traits. This is particularly true for amphibians, which are highly threatened worldwide, composed by more than 7400 species, which is constitute one of the most species-rich vertebrate groups. The collection of information on life history traits is difficult due to the ecology of species and remoteness of their habitats. It is therefore not surprising that our knowledge is limited, and missing information on certain life history traits are common for in this species group. We compiled data on amphibian life history traits from literature in an extensive database with morphological and behavioral traits, habitat preferences and movement abilities for 86 European amphibian species (50 Anuran and 36 Urodela species). When it were available, we reported data for males, females, juveniles and tadpoles. Our database may serve as an important starting point for further analyses regarding amphibian conservation.</p>
+      </abstract>
+      <pub-date>
+        <year>2014</year>
+      </pub-date>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="1">
+      <title>-</title>
+      <p>© Trochet A et al. This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY
+4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are
+credited.
+Introduction
+Amphibians, life history traits, Europe
+General description</p>
+      <p>Geographic coverage</p>
+      <p>Bufo americanus</p>
+      <p>Taxonomic coverage</p>
+      <p>Anurans/ Species
+Urodela</p>
+      <p>Alytes
+cisternasii
+Anaxyrus
+americanus
+Atylodes
+genei</p>
+      <p>Discoglossidae No
+Discoglossidae No
+Plethodontidae No
+Bombinatoridae No</p>
+      <p>Bombina
+pachypus
+Calotriton
+arnoldi
+Calotriton
+asper
+Chioglossa
+lusitanica
+Euproctus asper</p>
+      <p>Salamandridae No
+Discoglossus
+galganoi</p>
+      <p>Discoglossus
+hispanicus
+Discoglossus
+jeanneae
+Discoglossus
+montalentii</p>
+      <p>Discoglossidae No
+Discoglossidae No
+Discoglossidae No
+Discoglossidae No
+Discoglossidae No
+Bombinatoridae No
+Bombinatoridae No
+Salamandridae No
+Salamandridae No
+12, 48 2
+11, 52 2</p>
+      <p>Bufo calamita
+Hyla italica</p>
+      <p>Salamandridae No
+Salamandridae No
+Triturus boscai</p>
+      <p>Salamandridae No
+Triturus helveticus</p>
+      <p>Salamandridae No
+Euproctus
+montanus
+Euproctus
+platycephalus
+Hyla arborea
+Hyla sarda
+Lissotriton
+boscai
+Lissotriton
+helveticus
+Lissotriton
+italicus
+Lissotriton
+montandoni</p>
+      <p>Triturus italicus</p>
+      <p>Salamandridae No
+Triturus montandoni</p>
+      <p>Salamandridae No</p>
+      <p>Lissotriton
+vulgaris
+Lithobates
+catesbeianus
+Lithobates
+sylvaticus
+Lyciasalamandra
+helverseni
+Lyciasalamandra
+luschani
+Mesotriton
+alpestris
+Triturus vulgaris</p>
+      <p>Salamandridae No
+Pelobates
+cultripes
+Pelobates
+fuscus
+Rana catesbeiana
+Rana sylvatica
+Mertensiella luschani
+helverseni</p>
+      <p>Salamandridae No
+Mertensiella luschani</p>
+      <p>Salamandridae No
+Triturus alpestris,
+Ichthyosaura alpestris</p>
+      <p>Salamandridae No</p>
+      <p>Pelobates
+syriacus
+Pelodytes
+ibericus
+Pelophylax
+bedriagae
+Pelophylax
+bergeri
+Pelophylax
+cerigensis
+Pelophylax
+cretensis
+Pelophylax
+epeiroticus
+Pelophylax
+esculentus
+Pelophylax
+hispanicus
+Pelophylax
+kurtmuelleri
+Pelophylax
+lessonae
+Pelophylax
+perezi
+Pelophylax
+ridibundus
+Pelophylax
+shqipericus</p>
+      <p>Pelobates
+transcaucasicus
+Rana bedriagae
+Rana bergeri
+Rana cerigensis
+Rana cretensis
+Rana epeirotica
+Rana esculenta
+Rana grafi
+Rana hispanica
+Rana kurtmuelleri
+Rana lessonae
+Rana perezi
+Rana ridibunda
+Rana shqiperica
+4, 113 2
+Proteus
+anguinus</p>
+      <p>Siren anguina
+Pseude- Bufo viridis, Bufotes
+pidalea viridis viridis</p>
+      <p>Rana arvalis
+Rana
+dalmatina
+Rana graeca
+Rana iberica
+Rana italica
+Rana latastei
+Rana
+pyrenaica
+Rana
+temporaria
+Salamandra
+algira</p>
+      <p>Rana agilis
+Salamandridae No
+Salamandrina Molge tridactyla
+terdigitata
+Salamandra
+corsica
+Salamandra
+lanzai
+Salamandra
+salamandra
+Salamandrina
+perspicillata
+Speleomantes
+ambrosii
+Speleomantes
+imperialis
+Speleomantes
+sarrabusensis
+Speleomantes
+strinatii
+Speleomantes
+supramontis</p>
+      <p>Salamandridae No
+Salamandridae No
+Salamandridae No
+Salamandridae No
+Salamandridae No
+Salamandridae No
+Plethodontidae No
+Plethodontidae No
+Plethodontidae No
+Plethodontidae No
+Plethodontidae No
+Plethodontidae No
+Plethodontidae No</p>
+      <p>Salamandridae No
+Triturus
+dobrogicus
+Triturus
+marmoratus
+Triturus
+pygmaeus
+Xenopus
+laevis
+Salamandridae No
+Salamandridae No
+Salamandridae No
+Salamandridae No
+Salamandridae No
+Bufo laevis</p>
+      <p>Mean and range (min-max) of several traits recorded in Anura and Urodela species from our
+database. Number of missing values is also reported.</p>
+      <p>Number of
+missing values
+0.98–35.23 10</p>
+      <p>Number of
+missing values</p>
+      <p>31–129.75 7
+4.81–32.94 34
+Body mass (in g)
+Snout-to-vent length in
+adults (in mm)
+Snout-to-vent length in
+males (in mm)
+Snout-to-vent length in
+females (in mm)
+Foot length (in mm)
+Tibia length (in mm)
+Hind limb length (in mm)
+9.50–95.00 14
+5.37–65.95 25
+Number of eggs
+Survival rates in adults
+Sexual maturity (in years)
+Movement ability (in m)
+150–15000 26
+Taxa included:</p>
+      <p>Scientific Name
+Alytes cisternasii
+Alytes dickhilleni
+Alytes muletensis
+Alytes obstetricans
+Anaxyrus americanus</p>
+      <p>Common Name
+Iberian Midwife Toad
+Betic Midwife Toad
+Mallorcan Midwife Toad
+Common Midwife Toad</p>
+      <p>American Toad
+Traits coverage
+Morphological traits
+Sexual dimorphism
+Body mass
+Body length
+Snout-to-vent length
+Total length
+Body mass in males</p>
+      <p>Body mass in males, in grams.</p>
+      <p>Body mass in females</p>
+      <p>Body mass in males, in grams.</p>
+      <p>Adult body mass
+Body mass in juveniles</p>
+      <p>Body mass in juveniles, in grams. No distinction between sexes was available.</p>
+      <p>Difference in ornamentation (coloration) or in size (length of tail, size of head or body
+size) between sexes. In amphibians, females are generally bigger than males. This
+difference may be caused by natural selection of a large female size due to a fecundity
+advantage. This phenotypic difference in size is often explained by sexual selection.</p>
+      <p>Absence of sexual dimorphism.</p>
+      <p>Presence of sexual dimorphism.</p>
+      <p>Body mass in males, females or both when sex specific data were not available.</p>
+      <p>Body mass in adults, without distinction between males and females, in grams. This
+data was recorded when no sex specific data on body mass were available in the
+literature.</p>
+      <p>A measurement of the longest dimension of a body, typically between two distinct ends
+of the body. In amphibians, the distance snout-to-vent length is usually measured. To
+take into account the tail length in Urodela, we also reported a total length for each
+species, in males, in females or both when sex-specific data were not available.</p>
+      <p>Measurement between the snout and the vent in males (in millimeters).</p>
+      <p>Measurement between the snout and the vent in females (in millimeters).</p>
+      <p>Measurement between the snout and the vent in adults, when no sex specific data were
+available (in millimeters).</p>
+      <p>In Anura, this measure was similar to the snout-to-vent length. In Urodela, this
+measurement takes into account the tail length.</p>
+      <p>Total length in males</p>
+      <p>Measure of the total body length in males, in millimeters.</p>
+      <p>Total length in females</p>
+      <p>Measure of the total body length in females, in millimeters.</p>
+      <p>Proportion of the head length compared to the body length.
+0: Head length is not lower than body length.
+1: Head length is lower than body length.
+0: Head length is not similar to body length.
+1: Head length is similar to body length.
+0: Head length is not longer than body length.
+1: Head length is longer than body length.</p>
+      <p>Measurements of limb (foot, tibia and hind limb) in males, in females, or both when data
+were not sex specific available.</p>
+      <p>Measurement of the foot in millimeters.</p>
+      <p>Foot length in males</p>
+      <p>Measurement of the foot in males, in millimeters.</p>
+      <p>Foot length in females</p>
+      <p>Measurement of the foot in females, in millimeters.</p>
+      <p>Hind limb length in males Measurement of the hind limb in males, in millimeters.</p>
+      <p>Adult total length
+Head and body length
+proportion
+Limb length
+Foot length
+Adult foot length
+Hind limb length
+Adult hind limb length
+Tibia length
+Adult tibia length
+Fore and hind limb
+proportion
+Tibia length in males</p>
+      <p>Measurement of the tibia in males, in millimeters.</p>
+      <p>Tibia length in females</p>
+      <p>Measurement of the tibia in females, in millimeters.</p>
+      <p>Measurement of the foot in adults, when no sex specific data were available, in
+millimeters.</p>
+      <p>Measurement of the hind limb, in millimeters.</p>
+      <p>Measurement of the hind limb in females, in millimeters.</p>
+      <p>Measurement of the hind limb in adults, when no sex specific data were available, in
+millimeters.</p>
+      <p>Measurement of the tibia, in millimeters.</p>
+      <p>Measurement of the tibia in adults, when no sex specific data were available, in
+millimeters.</p>
+      <p>Proportion of the fore limb length compared to the hind limb length.
+0: Fore limb length is not lower than hind limb length.
+1: Fore limb length is lower than hind limb length.
+0: Fore limb length is not similar to hind limb length.
+1: Fore limb length is similar to hind limb length.
+0: Fore limb length is not longer than hind limb length.</p>
+      <p>1: Fore limb length is longer than hind limb length.</p>
+      <p>Fingers and webbing
+Presence of discs
+Presence of webbing</p>
+      <p>Some amphibians have adhesive discs at the ends of the toes and fingers.</p>
+      <p>Absence of adhesive discs
+Presence of adhesive discs on fingers and/or on toes.
+0: Absence of webbing.</p>
+      <p>1: Presence of webbing on toes and/or fingers
+0: Absence of webbing on toes only.</p>
+      <p>1: Presence of webbing on toes only.</p>
+      <p>Presence of webbing on
+toes and fingers
+0: Absence of webbing on toes and fingers.</p>
+      <p>1: Presence of webbing on toes and fingers.
+Reduction on fingers only 0: Individuals have less than 5 toes and 4 fingers.</p>
+      <p>1: Individuals have 5 toes and 4 fingers.</p>
+      <p>Reduction on fingers and 0: Individuals have 5 toes and 4 fingers.
+toes 1: Individuals have less than 5 toes and 4 fingers.
+Dorsoseparation</p>
+      <p>Absence of metatarsal tubercle.</p>
+      <p>Presence of metatarsal tubercle.
+0: Dorsoseparation weak
+1: Dorsoseparation sharp
+Webbing colour contrast 0: Absence of webbing colour contrast</p>
+      <p>1: Presence of webbing colour contrast
+Survival rates
+Sexual maturity
+Mating systems
+Life history traits</p>
+      <p>Details about the period of activity.
+0: No diurnal species.
+1: Diurnal species.
+0: No nocturnal species.
+1: Nocturnal species.
+0: Species diurnal or nocturnal.
+1: Species diurnal and nocturnal.</p>
+      <p>Survival rates in males</p>
+      <p>Survival rates in males.</p>
+      <p>Survival rates in females</p>
+      <p>Survival rates in females.</p>
+      <p>Adult survival rates</p>
+      <p>Survival rates in adults, when no sex specific data were available.</p>
+      <p>Sexual maturity in years.</p>
+      <p>Sexual maturity in males</p>
+      <p>Sexual maturity in males, in years.</p>
+      <p>Sexual maturity in females</p>
+      <p>Sexual maturity in females, in years.</p>
+      <p>Adult sexual maturity</p>
+      <p>Sexual maturity in adults, when no sex specific data were available, in years.</p>
+      <p>Structuration of sexual behaviour relationships during the breeding season. We
+recorded 2 different types of mating systems through amphibians: polygyny when a
+male has mating relationships with several females; polyandry when a female has
+mating relationships with several males.
+0: No polyandry species.
+1: Polyandry species
+0: No polygyny species.</p>
+      <p>1: Polygyny species.
+Details about clutch size, egg laying mode, eggs and young characteristics.</p>
+      <p>When the species is viviparous, number of offspring by female by clutch.</p>
+      <p>When the species is ovoviviparous, number of eggs by female by clutch.</p>
+      <p>When the species is ovoviviparous, number of offspring by female by clutch.</p>
+      <p>Eggs and young
+Number of eggs/offspring
+Egg laying mode
+Eggs and larvae
+characteristics
+Metamorphosis size
+Number of eggs
+Egg diameter
+Pole visible on eggs
+On ground
+Attach in lotic habitat
+Attach in lentic habitat
+Free in lentic habitat
+0: Eggs are not laid single.
+1: Eggs are laid single.
+0: Eggs are not laid by cluster.
+1: Eggs are laid by cluster.
+0: Eggs are not laid by strings.
+1: Eggs are laid by strings.</p>
+      <p>Measurement of the total body length of juveniles before metamorphosis, in
+millimeters.</p>
+      <p>When the species is oviparous, number of eggs by female by clutch.</p>
+      <p>Egg diameter in millimeters.</p>
+      <p>Egg mass in grams.
+0: Pole not visible on eggs.
+1: Pole visible on eggs.
+0: Eggs are not laid on ground.
+1: Eggs are laid on ground.
+0: Eggs are not laid on adult.
+1: Eggs are laid on adult.
+0: Eggs are not attached in lotic habitat.
+1: Eggs are attached in lotic habitat.
+0: Eggs are not attached in lentic habitat.
+1: Eggs are attached in lentic habitat.
+0: Eggs are not laid free in lentic habitat.</p>
+      <p>1: Eggs are laid free in lentic habitat.</p>
+      <p>Clutch position</p>
+      <p>Eggs can be lay at different places in the breeding environment.</p>
+      <p>On surface in lentic habitat 0: Eggs are not laid on surface in lentic habitat.</p>
+      <p>1: Eggs are laid on surface in lentic habitat.
+0: Eggs are not attached on swamps in lentic habitat.</p>
+      <p>1: Eggs are attached on swamps in lentic habitat.
+0: Eggs are not laid free on swamps in lentic habitat.</p>
+      <p>1: Eggs are laid free on swamps in lentic habitat.</p>
+      <p>On surface on swamps in
+lentic habitat
+0: Eggs are not laid on surface on swamps in lentic habitat.</p>
+      <p>1: Eggs are laid on surface on swamps in lentic habitat.</p>
+      <p>On surface on
+nonpermanent lentic ponds
+Breeding season
+Explosive or prolonged
+Parental care
+Presence of parental care
+Transport of eggs
+Transport of tadpoles
+Guarding eggs
+Defend eggs
+Water eggs
+Food active or passive
+Food of juveniles
+0: Eggs are not laid on surface on non-permanent lentic ponds.
+1: Eggs are laid on surface on non-permanent lentic ponds.
+0: Prolonged breeding season.
+1: Explosive breeding season.</p>
+      <p>Parental care is defined as any behaviour of parents for increasing the fitness of their
+young. Most of amphibians do not perform parental care, but a few transport, guard
+and defend their eggs.
+0: Absence of parental care.
+1: Presence of parental care.
+0: Parents do not transport their eggs.
+1: Parents transport their eggs.
+0: Parents do not transport their tadpoles.
+1: Parents transport their tadpoles.
+0: Parents do not guard their eggs.
+1: Parents guard their eggs.
+0: Parents do not defend their eggs.
+1: Parents defend their eggs.
+0: Parents do not humidify their eggs.
+1: Parents humidify their eggs.</p>
+      <p>Food passive (sit-and-wait)
+Food active (active foragers)
+0: Juveniles are not carnivorous.
+1: Juveniles are carnivorous.
+0: Juveniles are not insectivorous.
+1: Juveniles are insectivorous.
+0: Juveniles are not moluscivorous.
+1: Juveniles are moluscivorous.
+Food of adults
+Metabolism rates
+Death simulation
+Unken reflex
+Communication</p>
+      <p>Mode of communication
+0: Species do not use visual communication.
+1: Species uses visual communication.
+0: Species do not use acoustic communication.
+1: Species uses acoustic communication.
+0: Species do not use chemical communication.</p>
+      <p>1: Species uses chemical communication.
+0: Juveniles are not herbivorous.
+1: Juveniles are herbivorous.
+0: Juveniles are not detritivorous.
+1: Juveniles are detritivorous.
+0: Adults are not carnivorous.
+1: Juveniles are carnivorous.
+0: Juveniles are not insectivorous.
+1: Juveniles are insectivorous.
+0: Juveniles are not moluscivorous.
+1: Juveniles are moluscivorous.
+0: Juveniles are not cannibals.
+1: Juveniles are cannibals.
+0: Juveniles are not herbivorous.
+1: Juveniles are herbivorous.
+0: Juveniles are not detritivorous.
+1: Juveniles are detritivorous.</p>
+      <p>Metabolism rate in adults.</p>
+      <p>Mode of defense
+0: Species do not use secretion as mode of defense.
+1: Species uses secretion as mode of defense.
+0: Species do not use toxicity as mode of defense.
+1: Species uses toxicity as mode of defense.
+0: Species do not use death simulation as mode of defense.
+1: Species uses death simulation as mode of defense.
+0: Species do not use unken reflex as mode of defense.
+1: Species uses unken reflex as mode of defense.
+0: Species do not use other mode of defense.</p>
+      <p>1: Species uses other mode of defense.
+Male territorial
+Female territorial
+Both territorial
+0: Species do not use seismic communication.
+1: Species uses seismic communication.</p>
+      <p>Territoriality can serve individuals to defend their nest, den, sexual partners, mating
+sites or high quality resources sites needed for themselves or their young. We
+recorded species for which individuals develop a territorial behaviour (by scent
+markings or fighting) during the breeding season.
+0: Both males and females not territorial.</p>
+      <p>1: Both males and females territorial.
+Home range
+Home range
+Movement event
+Movement event
+0: Movement events performed by one single individual (solitary individual).</p>
+      <p>1: Movement events performed by several individuals (social individuals).
+Dispersal active or passive
+Dispersal active or passive
+Sex-biased dispersal
+Sex-biased dispersal
+Mode of displacement
+Dispersal stage juvenile
+Dispersal stage adult
+Dispersal stage during
+breeding season
+Mean dispersal distance</p>
+      <p>Mean dispersal distance, in meters.</p>
+      <p>Maximum dispersal distance</p>
+      <p>Maximum dispersal distance, in meters.</p>
+      <p>Minimal dispersal distance</p>
+      <p>Minimal dispersal distance, in meters.
+0: Passive dispersal.
+1: Active dispersal.</p>
+      <p>Dispersal abilities can be significantly different between genders. We reported here
+if sex-biased dispersal was identified in species (if males have faster or longer
+dispersal abilities than females).
+0: No sex-biased dispersal reported in the literature.
+1: Significant sex-biased dispersal reported in the literature.
+0: Individuals do not walk during displacement event.
+1: Individuals walk during displacement event.
+0: Individuals do not jump during displacement event.
+1: Individuals jump during displacement event.
+0: Individuals do not run during displacement event.
+1: Individuals run during displacement event.
+0: Individuals do not climb during displacement event.
+1: Individuals climb during displacement event.
+0: Individuals do not swim during displacement event.
+1: Individuals swim during displacement event.
+0: Individuals do not crawl during displacement event.
+1: Individuals crawl during displacement event.</p>
+      <p>Contrary to migration, dispersal is defined as individual movement could induce
+gene flow. Dispersal distances came from mark-release-recapture and/or
+radiotracking studies.
+0: Dispersal event not at juvenile stage.
+1: Dispersal event at juvenile stage.
+0: Dispersal event not at adult stage.
+1: Dispersal event at adult stage.
+0: Dispersal event not during breeding season.
+1: Dispersal event during breeding season.</p>
+      <p>Contrary to dispersal, migration is defined as individual movement that not induces
+gene flow. Migration distances came from mark-release-recapture and/or
+radiotracking studies.
+Migration stage adult
+Migration stage during
+breeding season
+0: Migration event not at adult stage.
+1: Migration event at adult stage.
+0: Migration event not during breeding season.</p>
+      <p>1: Migration event during breeding season.</p>
+      <p>Mean migration distance</p>
+      <p>Mean migration distance, in meters.</p>
+      <p>Maximum migration distance Maximum migration distance, in meters.</p>
+      <p>Minimal migration distance</p>
+      <p>Minimal migration distance, in meters.</p>
+      <p>Habitat preferences and distribution
+Subtropical/tropical dry
+Subtropical/tropical moist lowland
+Subtropical/tropical swamp
+Subtropical/tropical moist montane</p>
+      <p>Habitat(s) where the species is frequently found.
+0: The species does not live in boreal forests.
+1: The species lives in boreal forests.
+0: The species does not live in subarctic forests.
+1: The species lives in subarctic forests.
+0: The species does not live in subantarctic forests.
+1: The species lives in subantarctic forests.
+0: The species does not live in subtropical/tropical dry forests.
+1: The species lives in subtropical/tropical dry forests.
+0: The species does not live in temperate forests.
+1: The species lives in temperate forests.
+0: The species does not live in subtropical/tropical moist lowland
+forests.
+1: The species lives in subtropical/tropical moist lowland forests.
+0: The species does not live in subtropical/tropical mangrove
+vegetation aboral forests.
+1: The species lives in subtropical/tropical mangrove vegetation aboral
+forests.
+0: The species does not live in subtropical/tropical swamp forests.
+1: The species lives in subtropical/tropical swamp forests.
+0: The species does not live in subtropical/tropical moist montane
+forests.
+1: The species lives in subtropical/tropical moist montane forests.
+0: The species does not live in dry savanna.
+1: The species lives in dry savanna.
+0: The species does not live in moist savanna.
+1: The species lives in moist savanna.
+0: The species does not live in subarctic shrubland.
+1: The species lives in subarctic shrubland.
+0: The species does not live in subantarctic shrubland.
+1: The species lives in subantarctic shrubland.
+0: The species does not live in boreal shrubland.
+1: The species lives in boreal shrubland.
+0: The species does not live in temperate shrubland.</p>
+      <p>1: The species lives in temperate shrubland.
+Subtropical/tropical dry
+Subtropical/tropical moist
+Tropical high altitude
+Mediterranean-type shrubby vegetation
+Subtropical/tropical dry
+Subtropical/tropical high altitude
+Permanent rivers/streams/creeks
+(including waterfalls)
+0: The species does not live in subtropical/tropical dry shrubland.
+1: The species lives in subtropical/tropical dry shrubland.
+0: The species does not live in subtropical/tropical moist shrubland.
+1: The species lives in subtropical/tropical moist shrubland.
+0: The species does not live in tropical high altitude shrubland.
+1: The species lives in tropical high altitude shrubland.
+0: The species does not live in mediterranean-type shrubby vegetation
+shrubland.
+1: The species lives in mediterranean-type shrubby vegetation
+shrubland.
+0: The species does not live in tundra grassland.
+1: The species lives in tropical tundra grassland.
+0: The species does not live in subarctic grassland.
+1: The species lives in tropical subarctic grassland.
+0: The species does not live in subantarctic grassland.
+1: The species lives in tropical subantarctic grassland.
+0: The species does not live in temperate grassland.
+1: The species lives in tropical temperate grassland.
+0: The species does not live in subtropical/tropical dry grassland.
+1: The species lives in tropical subtropical/tropical dry grassland.
+0: The species does not live in subtropical/tropical seasonally wet/
+flooded grassland.
+1: The species lives in tropical subtropical/tropical seasonally wet/
+flooded grassland.
+0: The species does not live in subtropical/ tropical high altitude
+grassland.
+1: The species lives in tropical subtropical/ tropical high altitude
+grassland.
+0: The species does not live in permanent rivers/streams/creeks
+(including waterfalls) wetlands.
+1: The species lives in tropical permanent rivers/streams/creeks
+(including waterfalls) wetlands.</p>
+      <p>Shrub dominated wetlands
+Bogs/marshes/swamps/fens/peatlands
+Permanent freshwater lakes (&gt;8ha)
+0: The species does not live in shrub dominated wetlands wetlands.
+1: The species lives in tropical shrub dominated wetlands wetlands.
+0: The species does not live in bogs/marshes/swamps/fens/peatlands
+wetlands.
+1: The species lives in tropical bogs/marshes/swamps/fens/peatlands
+wetlands.
+0: The species does not live in permanent freshwater lakes (&gt;8ha)
+wetlands.
+1: The species lives in tropical permanent freshwater lakes (&gt;8ha)
+wetlands.
+0: The species does not live in seasonal/intermittent freshwater lakes
+(&gt;8ha) wetlands.
+1: The species lives in tropical seasonal/intermittent freshwater lakes
+(&gt;8ha) wetlands.
+0: The species does not live in permanent freshwater marshes/pools
+(&gt;8ha) wetlands.
+1: The species lives in tropical permanent freshwater marshes/pools
+(&gt;8ha) wetlands.</p>
+      <p>Freshwater springs and oases
+Tundra wetlands
+Geothermal wetlands
+Permanent inland deltas
+Seasonal/intermittent saline, brackish or
+alkaline lakes
+Permanent saline, brackish or alkaline
+marshes/pools
+Rocky areas
+Inland cliffs, moutain peaks
+Caves and subterranean habitats
+(nonaquatic)
+other subterranean habitats
+0: The species does not live in freshwater springs and oases
+wetlands.
+1: The species lives in tropical freshwater springs and oases wetlands.
+0: The species does not live in tundra wetlands wetlands.
+1: The species lives in tropical tundra wetlands wetlands.
+0: The species does not live in geothermal wetlands wetlands.
+1: The species lives in tropical geothermal wetlands wetlands.
+0: The species does not live in permanent inland deltas wetlands.
+1: The species lives in tropical permanent inland deltas wetlands.
+0: The species does not live in permanent saline, brackish or alkaline
+lakes wetlands.
+1: The species lives in tropical permanent saline, brackish or alkaline
+lakes wetlands.
+0: The species does not live in seasonal/intermittent saline, brackish
+or alkaline lakes wetlands.
+1: The species lives in tropical seasonal/intermittent saline, brackish or
+alkaline lakes wetlands.
+0: The species does not live in permanent saline, brackish or alkaline
+marshes/pools wetlands.
+1: The species lives in tropical permanent saline, brackish or alkaline
+marshes/pools wetlands.
+0: The species does not live in rock areas as inland cliffs, moutain
+peaks.
+1: The species lives in rock areas as inland cliffs, moutain peaks.
+0: The species does not live in caves and subterranean habitats.
+1: The species lives in caves and subterranean habitats.
+0: The species does not live in other subterranean habitats.</p>
+      <p>1: The species lives in other subterranean habitats.</p>
+      <p>Subtropical/tropical heavily degraded
+former forest
+Artificial/terrestrial
+Arable land
+Rural gardens
+Urban areas
+Altitude min
+Altitude max
+Biogeographical regions
+0: The species does not live in hot deserts.
+1: The species lives in other hot deserts.
+0: The species does not live in temperate deserts.
+1: The species lives in other temperate deserts.
+0: The species does not live in cold deserts.
+1: The species lives in other cold deserts.
+0: The species does not live in arable land.
+1: The species lives in arable land.
+0: The species does not live in pastureland.
+1: The species lives in pastureland.
+0: The species does not live in plantations.
+1: The species lives in plantations.
+0: The species does not live in rural gardens.
+1: The species lives in rural gardens.
+0: The species does not live in urban areas.
+1: The species lives in urban areas.
+0: The species does not live in subtropical/tropical heavily degraded
+former forest.
+1: The species lives in subtropical/tropical heavily degraded former
+forest.
+0: The species does not live in dunes.
+1: The species lives in dunes.</p>
+      <p>Minimal attitude where the species was observed.</p>
+      <p>Maximal attitude where the species was observed.
+0: The species does not live in the alpine biogeographical region.
+1: The species lives in the alpine biogeographical region.
+0: The species does not live in the anatolian biogeographical region.
+1: The species lives in the anatolian biogeographical region.
+0: The species does not live in the arctic biogeographical region.
+1: The species lives in the arctic biogeographical region.
+0: The species does not live in the atlantic biogeographical region.
+1: The species lives in the atlantic biogeographical region.
+0: The species does not live in the black sea biogeographical region.
+1: The species lives in the black sea biogeographical region.
+0: The species does not live in the boreal biogeographical region.</p>
+      <p>1: The species lives in the boreal biogeographical region.
+Europe occupied UTM 50×50 km cells
+0: The species does not live in the continentalbiogeographical region.
+1: The species lives in the continental biogeographical region.
+0: The species does not live in the mediterranean biogeographical
+region.
+1: The species lives in the mediterranean biogeographical region.
+0: The species does not live in the macaronesian biogeographical
+region.
+1: The species lives in the macaronesian biogeographical region.
+0: The species does not live in the pannonian biogeographical region.
+1: The species lives in the pannonian biogeographical region.
+0: The species does not live in the steppic biogeographical region.
+1: The species lives in the steppic biogeographical region.</p>
+      <p>Spatial distribution of the species in Europe, calculated with GIS tools,
+in km².</p>
+      <p>Distribution of the species in Asia.</p>
+      <p>Spatial distribution of the species in Asia, calculated with GIS tools, in
+km².
+0: The spatial distribution of the species is not rare.
+1: The spatial distribution of the species is rare.
+0: Less than 10% of the spatial distribution of the species is not in
+Asia.
+1: Less than 10% of the spatial distribution of the species is in Asia.
+0: Between 10 and 20% of the spatial distribution of the species are
+not in Asia.
+1: Between 10 and 20% of the spatial distribution of the species are in
+Asia.
+0: Between 20 and 30% of the spatial distribution of the species are
+not in Asia.
+1: Between 20 and 30% of the spatial distribution of the species are in
+Asia.
+0: Between 30 and 40% of the spatial distribution of the species are
+not in Asia.
+1: Between 30 and 40% of the spatial distribution of the species are in
+Asia.
+0: Between 40 and 50% of the spatial distribution of the species are
+not in Asia.
+1: Between 40 and 50% of the spatial distribution of the species are in
+Asia.
+0: Between 50 and 60% of the spatial distribution of the species are
+not in Asia.
+1: Between 50 and 60% of the spatial distribution of the species are in</p>
+      <p>Asia.
+North America
+0: Between 60 and 70% of the spatial distribution of the species are
+not in Asia.
+1: Between 60 and 70% of the spatial distribution of the species are in
+Asia.
+0: Between 70 and 80% of the spatial distribution of the species are
+not in Asia.
+1: Between 70 and 80% of the spatial distribution of the species are in
+Asia.
+0: Between 80 and 90% of the spatial distribution of the species are
+not in Asia.
+1: Between 80 and 90% of the spatial distribution of the species are in
+Asia.
+0: Up to 90% of the spatial distribution of the species is not in Asia.
+1: Up to 90% of the spatial distribution of the species is in Asia.</p>
+      <p>Distribution of the species in Africa.</p>
+      <p>Spatial distribution of the species in Africa, calculated with GIS tools,
+in km².
+0: The spatial distribution of the species is not punctual.
+1: The spatial distribution of the species is punctual.
+0: Less than 15% of the spatial distribution of the species is not in
+Africa.
+1: Less than 15% of the spatial distribution of the species is in Africa.
+0: Between 15 and 30% of the spatial distribution of the species are
+not in Africa.
+1: Between 15 and 30% of the spatial distribution of the species are in
+Africa.
+0: Between 30 and 45% of the spatial distribution of the species are
+not in Africa.
+1: Between 30 and 45% of the spatial distribution of the species are in
+Africa.
+0: Between 45 and 60% of the spatial distribution of the species are
+not in Africa.
+1: Between 45 and 60% of the spatial distribution of the species are in
+Africa.
+0: Between 60 and 75% of the spatial distribution of the species are
+not in Africa.
+1: Between 60 and 75% of the spatial distribution of the species are in
+Africa.
+0: Between 75 and 90% of the spatial distribution of the species are
+not in Africa.
+1: Between 75 and 90% of the spatial distribution of the species are in
+Africa.
+0: Up to 90% of the spatial distribution of the species is not in Africa.
+1: Up to 90% of the spatial distribution of the species is in Africa.</p>
+      <p>Distribution of the species in North America.</p>
+      <p>Spatial distribution of the species in North America, calculated with</p>
+      <p>GIS tools, in km².
+South America</p>
+      <p>Distribution of the species in South America.
+0: The spatial distribution of the species is not punctual.
+1: The spatial distribution of the species is punctual.
+0: Less than 20% of the spatial distribution of the species is not in
+North America.
+1: Less than 20% of the spatial distribution of the species is in North
+America.
+0: Between 20 and 40% of the spatial distribution of the species are
+not in North America.
+1: Between 20 and 40% of the spatial distribution of the species are in
+North America.
+0: Between 40 and 60% of the spatial distribution of the species are
+not in North America.
+1: Between 40 and 60% of the spatial distribution of the species are in
+North America.
+0: Between 60 and 80% of the spatial distribution of the species are
+not in North America.
+1: Between 60 and 80% of the spatial distribution of the species are in
+North America.
+0: Up to 80% of the spatial distribution of the species is not in North
+America.
+1: Up to 80% of the spatial distribution of the species is in North
+America.</p>
+      <p>Spatial distribution of the species in South America, calculated with
+GIS tools, in km².
+0: The spatial distribution of the species is not punctual.
+1: The spatial distribution of the species is punctual.
+0: Less than 25% of the spatial distribution of the species is not in
+South America.
+1: Less than 25% of the spatial distribution of the species is in South
+America.
+0: Between 25 and 50% of the spatial distribution of the species are
+not in South America.
+1: Between 25 and 50% of the spatial distribution of the species are in
+South America.
+0: Between 50 and 75% of the spatial distribution of the species are
+not in South America.
+1: Between 50 and 75% of the spatial distribution of the species are in
+South America.
+0: Up to 75% of the spatial distribution of the species is not in South
+America.
+1: Up to 75% of the spatial distribution of the species is in South
+America.</p>
+      <p>Distribution of the species in Australia.</p>
+      <p>Spatial distribution of the species in Australia, calculated with GIS
+tools, in km².
+Global Distribution</p>
+      <p>IUCN status
+Data Deficient
+Least Concern
+Near Threatened
+Critically Endangered
+Population trend
+0: Less than 50% of the spatial distribution of the species is not in
+Australia.
+1: Less than 50% of the spatial distribution of the species is in
+Australia.
+0: Up to 50% of the spatial distribution of the species is not in
+Australia.
+1: Up to 50% of the spatial distribution of the species is in Australia.
+0: The species is not ubiquist.
+1: The species is ubiquist.
+0: The species is not subendemic.
+1: The species is subendemic.
+0: The species is not endemic.</p>
+      <p>1: The species is endemic.</p>
+      <p>IUCN threat status. Threatened species have one of the three following IUCN status:
+“vulnerable”, “endangered”, “critically endangered”.
+0: Data sufficient for the species.
+1: Data deficient for the species.
+0: IUCN status for the species is not Least Concern.
+1: IUCN status for the species is Least Concern.
+0: IUCN status for the species is not Near Threatened.
+1: IUCN status for the species is Near Threatened.
+0: IUCN status for the species is not Vulnerable.
+1: IUCN status for the species is Vulnerable.
+0: IUCN status for the species is not Endangered.
+1: IUCN status for the species is Endangered.
+0: IUCN status for the species is not Critically Endangered.
+1: IUCN status for the species is Critically Endangered.</p>
+      <p>Evolution of the population. Population trends vary between “decrease”, “stable” and
+“increase”.
+Data Deficient
+Major Threats
+Habitat loss
+Invasive alien
+Climate change
+Natural disasters
+Change dynamics
+Intrinsic factors
+Human disturbance
+0: Data sufficient for the species.
+1: Data deficient for the species.
+0: Population trend for the species is not Decrease.
+1: Population trend for the species is Decrease.
+0: Population trend for the species is not Stable.
+1: Population trend for the species is Stable.
+0: Population trend for the species is not Increase.
+1: Population trend for the species is Increase.</p>
+      <p>Major threats impacting the species.
+0: Habitat loss does not affect the species.
+1: Habitat loss affects the species.
+0: Invasive alien does not affect the species.
+1: Invasive alien affects the species.
+0: Harvesting does not affect the species.
+1: Harvesting affects the species.
+0: Accidental does not affect the species.
+1: Accidental affects the species.
+0: Persecution does not affect the species.
+1: Persecution affects the species.
+0: Pollution does not affect the species.
+1: Pollution affects the species.
+0: Climate change does not affect the species.
+1: Climate change affects the species.
+0: Natural disasters do not affect the species.
+1: Natural disasters affect the species.
+0: Change dynamics do not affect the species.
+1: Change dynamics affect the species.
+0: Intrinsic factors do not affect the species.
+1: Intrinsic factors affect the species.
+0: Human disturbance does not affect the species.
+1: Human disturbance affects the species.
+0: Factors affecting the species are known.</p>
+      <p>1: Factors affecting the species are unknown.</p>
+      <p>Usage rights
+Use license: Creative Commons CCZero</p>
+    </sec>
+    <sec id="2">
+      <title>Data resources</title>
+      <p>Data package title: European amphibians database
+Number of data sets: 1
+Additional information</p>
+      <p>Acknowledgements</p>
+      <p>Supplementary materials
+Suppl. material 2: References cited in the database of life-history traits of European
+amphibians</p>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Alford</surname>
+            <given-names>R</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Bradfield</surname>
+            <given-names>K</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Richards</surname>
+            <given-names>S</given-names>
+          </string-name>
+          (
+          <year>2006</year>
+          )
+          <article-title>Ecology: Global warming and amphibian losses</article-title>
+          .
+          <source>Nature</source>
+          <volume>447</volume>
+          :
+          <fpage>E3</fpage>
+          ‑
+          <lpage>E4</lpage>
+          . DOI: 10.1038/nature05940 AmphibiaWeb (
+          <year>2012</year>
+          )
+          <article-title>Information on amphibian biology and conservation</article-title>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          AmphibiaWeb http://amphibiaweb.org/:
+          <fpage>2012</fpage>
+          ‑
+          <lpage>12</lpage>
+          -10. URL: http://amphibiaweb.org/ Araujo M,
+          <string-name>
+            <surname>Thuiller</surname>
+            <given-names>W</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Pearson</surname>
+            <given-names>R</given-names>
+          </string-name>
+          (
+          <year>2006</year>
+          )
+          <article-title>Climate warming and the decline of amphibians and reptiles in Europe</article-title>
+          .
+          <source>Journal of Biogeography</source>
+          <volume>33</volume>
+          (
+          <issue>10</issue>
+          ):
+          <fpage>1712</fpage>
+          ‑
+          <lpage>1728</lpage>
+          . DOI: 10.1111/ j.1365-
+          <fpage>2699</fpage>
+          .
+          <year>2006</year>
+          .01482.x
+          <string-name>
+            <surname>Beebee</surname>
+            <given-names>T</given-names>
+          </string-name>
+          (
+          <year>1995</year>
+          )
+          <article-title>Amphibian breeding and climate change</article-title>
+          .
+          <source>Nature</source>
+          <volume>374</volume>
+          :
+          <fpage>219</fpage>
+          ‑
+          <lpage>220</lpage>
+          . DOI: 10.1038/374219a0
+          <string-name>
+            <surname>Beebee</surname>
+            <given-names>T</given-names>
+          </string-name>
+          (
+          <year>2002</year>
+          )
+          <article-title>Amphibian phenology and climate change</article-title>
+          .
+          <source>Conservation Biology</source>
+          <volume>16</volume>
+          :
+          <fpage>1454</fpage>
+          ‑
+          <lpage>1455</lpage>
+          . DOI: 10.1046/j.1523-
+          <fpage>1739</fpage>
+          .
+          <year>2002</year>
+          .02102.x
+          <string-name>
+            <surname>Beebee</surname>
+            <given-names>T</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Griffith</surname>
+            <given-names>R</given-names>
+          </string-name>
+          (
+          <year>2005</year>
+          )
+          <article-title>The amphibian decline crisis: A watershed for conservation biology?</article-title>
+          <source>Biological Conservation</source>
+          <volume>125</volume>
+          :
+          <fpage>271</fpage>
+          ‑
+          <lpage>285</lpage>
+          . DOI: 10.1016/j.biocon.
+          <year>2005</year>
+          .04.009
+          <string-name>
+            <surname>Blaustein</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kiesecker</surname>
+            <given-names>J</given-names>
+          </string-name>
+          (
+          <year>2002</year>
+          )
+          <article-title>Complexity in conservation: lessons from the global decline of amphibian populations</article-title>
+          .
+          <source>Ecology Letters</source>
+          <volume>5</volume>
+          (
+          <issue>4</issue>
+          ):
+          <fpage>597</fpage>
+          ‑
+          <lpage>608</lpage>
+          . DOI: 10.1046/ j.1461-
+          <fpage>0248</fpage>
+          .
+          <year>2002</year>
+          .00352.x
+          <string-name>
+            <surname>Blaustein</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Belden</surname>
+            <given-names>L</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Olson</surname>
+            <given-names>D</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Grenn</surname>
+            <given-names>D</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Root</surname>
+            <given-names>T</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kiesecker</surname>
+            <given-names>J</given-names>
+          </string-name>
+          (
+          <year>2001</year>
+          )
+          <article-title>Amphibian breeding and climate change</article-title>
+          .
+          <source>Conservation Biology</source>
+          <volume>16</volume>
+          :
+          <fpage>1804</fpage>
+          ‑
+          <lpage>1809</lpage>
+          . DOI: 10.1046/ j.1523-
+          <fpage>1739</fpage>
+          .
+          <year>2001</year>
+          .00307.x
+          <string-name>
+            <surname>Boissinot</surname>
+            <given-names>A</given-names>
+          </string-name>
+          (
+          <year>2009</year>
+          )
+          <article-title>Influence de la structure du biotope de reproduction et de l’agencement du paysage, sur le peuplement d’amphibiens d’une région bocagère de l’ouest de la France</article-title>
+          . Diplôme de l’
+          <source>Ecole Pratique des Hautes Etudes, Laboratoire de Biogéographie et d’Ecologie des Vertébrés (EPHE/CEFE) 1: 192.</source>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Bowman</surname>
+            <given-names>J</given-names>
+          </string-name>
+          (
+          <year>2003</year>
+          )
+          <article-title>Is dispersal distance of birds proportional to territory size</article-title>
+          ?
+          <source>Canadian Journal of Zoology</source>
+          <volume>81</volume>
+          (
+          <issue>2</issue>
+          ):
+          <fpage>195</fpage>
+          ‑
+          <lpage>202</lpage>
+          . DOI: 10.1139/z02-237
+          <string-name>
+            <surname>Bowman</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Jaeger</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Fahrig</surname>
+            <given-names>L</given-names>
+          </string-name>
+          (
+          <year>2002</year>
+          )
+          <article-title>Dispersal distance of mammals is proportionnal to home range size</article-title>
+          .
+          <source>Ecology</source>
+          <volume>83</volume>
+          :
+          <fpage>2049</fpage>
+          ‑
+          <lpage>2055</lpage>
+          . DOI: 10.1890/
+          <fpage>0012</fpage>
+          -
+          <lpage>9658</lpage>
+          (
+          <year>2002</year>
+          )
+          <article-title>083 [2049:DDOMIP]2.0</article-title>
+          .CO;2
+          <string-name>
+            <surname>Chanson</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Hoffmann</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Cox</surname>
+            <given-names>N</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Stuart</surname>
+            <given-names>S</given-names>
+          </string-name>
+          (
+          <year>2008</year>
+          )
+          <article-title>The State of the World’s Amphibians</article-title>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          In: Stuart SN,
+          <string-name>
+            <surname>Hoffman</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Chanson</surname>
+            <given-names>JS</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Cox</surname>
+            <given-names>NA</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Berridge</surname>
+            <given-names>RJ</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Ramani</surname>
+            <given-names>P</given-names>
+          </string-name>
+          , Young BE (Eds)
+          <article-title>Threatened Amphibians of the World</article-title>
+          .
+          <source>Lynx Edicions. Barcelona, Spain</source>
+          ,
+          <fpage>33</fpage>
+          -
+          <lpage>52</lpage>
+          pp.
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Corn</surname>
+            <given-names>P</given-names>
+          </string-name>
+          (
+          <year>2003</year>
+          )
+          <article-title>Amphibian breeding and climate change: Importance of snow in the mountains</article-title>
+          .
+          <source>Conservation Biology</source>
+          <volume>17</volume>
+          :
+          <fpage>622</fpage>
+          ‑
+          <lpage>625</lpage>
+          . DOI: 10.1046/j.1523-
+          <fpage>1739</fpage>
+          .
+          <year>2003</year>
+          .02111.x European Environment Agency (
+          <year>2010</year>
+          )
+          <article-title>Biogeographical regions in Europe</article-title>
+          . http:// www.eea.europa.eu/
+          <volume>1</volume>
+          : 1.
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Fahrig</surname>
+            <given-names>L</given-names>
+          </string-name>
+          (
+          <year>2003</year>
+          )
+          <article-title>Effects of habitat fragmentation on biodiversity</article-title>
+          .
+          <source>Annual Review of Ecology, Evolution, and Systematics</source>
+          <volume>34</volume>
+          :
+          <fpage>487</fpage>
+          ‑
+          <lpage>515</lpage>
+          . DOI: 10.1146/ annurev.ecolsys.
+          <volume>34</volume>
+          .011802.132419
+          <string-name>
+            <surname>Frost</surname>
+            <given-names>D</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Grant</surname>
+            <given-names>T</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Faivovich</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Bain</surname>
+            <given-names>R</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Haas</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Haddad</surname>
+            <given-names>C</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>De Sa</surname>
+            <given-names>R</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Channing</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Wilkinson</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Donnellan</surname>
+            <given-names>S</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Raxworthy</surname>
+            <given-names>C</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Campbell</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Blotto</surname>
+            <given-names>B</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Moler</surname>
+            <given-names>P</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Drewes</surname>
+            <given-names>R</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Nussbaum</surname>
+            <given-names>R</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Lynch</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Green</surname>
+            <given-names>D</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Wheeler</surname>
+            <given-names>W</given-names>
+          </string-name>
+          (
+          <year>2006</year>
+          )
+          <article-title>The amphibian tree of life</article-title>
+          .
+          <source>Bulletin of the American Museum of Natural History</source>
+          <volume>297</volume>
+          :
+          <fpage>1</fpage>
+          ‑
+          <lpage>370</lpage>
+          . DOI: 10.1206/
+          <fpage>0003</fpage>
+          -
+          <lpage>0090</lpage>
+          (
+          <year>2006</year>
+          )297[0001:TATOL]2.0.CO;2
+          <string-name>
+            <surname>Houlahan</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Findlay</surname>
+            <given-names>C</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Schmidt</surname>
+            <given-names>B</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Meyer</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kuzmin</surname>
+            <given-names>S</given-names>
+          </string-name>
+          (
+          <year>2000</year>
+          )
+          <article-title>Quantitative evidence for global amphibian population declines</article-title>
+          .
+          <source>Nature</source>
+          <volume>404</volume>
+          :
+          <fpage>752</fpage>
+          ‑
+          <lpage>755</lpage>
+          . DOI: 10.1038/35008052 IUCN (
+          <year>2011</year>
+          )
+          <article-title>IUCN Red List of Threatened Species Version 2011</article-title>
+          . IUCN 1:
+          <year>2011</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Kiesecker</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Blaustein</surname>
+            <given-names>A</given-names>
+          </string-name>
+          (
+          <year>1995</year>
+          )
+          <article-title>Synergism between UV-B radiation and a pathogen magnifies amphibian embryo mortality in nature</article-title>
+          .
+          <source>Proceedings of the National Academy of Sciences</source>
+          <volume>92</volume>
+          :
+          <fpage>11049</fpage>
+          ‑
+          <lpage>11052</lpage>
+          . DOI: 10.1073/pnas.92.24.11049
+          <string-name>
+            <surname>Klaus</surname>
+            <given-names>S</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Lougheed</surname>
+            <given-names>S</given-names>
+          </string-name>
+          (
+          <year>2013</year>
+          )
+          <article-title>Changes in breeding phenology of eastern Ontario frogs over four decades</article-title>
+          .
+          <source>Ecology and Evolution</source>
+          <volume>3</volume>
+          (
+          <issue>4</issue>
+          ):
+          <fpage>835</fpage>
+          ‑
+          <lpage>845</lpage>
+          . DOI: 10.1002/ece3.501
+          <string-name>
+            <surname>Marsh</surname>
+            <given-names>D</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Trenham</surname>
+            <given-names>P</given-names>
+          </string-name>
+          (
+          <year>2001</year>
+          )
+          <article-title>Metapopulation dynamics and amphibian conservation</article-title>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <source>Conservation Biology</source>
+          <volume>15</volume>
+          :
+          <fpage>40</fpage>
+          ‑
+          <lpage>49</lpage>
+          . DOI: 10.1046/j.1523-
+          <fpage>1739</fpage>
+          .
+          <year>2001</year>
+          .00129.x
+          <string-name>
+            <surname>Pahkala</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Laurila</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Merilä</surname>
+            <given-names>J</given-names>
+          </string-name>
+          (
+          <year>2003</year>
+          )
+          <article-title>Effects of ultraviolet-B radiation on behaviour and growth of three species of amphibian larvae</article-title>
+          .
+          <source>Chemosphere</source>
+          <volume>51</volume>
+          :
+          <fpage>197</fpage>
+          ‑
+          <lpage>204</lpage>
+          . DOI: 10.1016/ S0045-6535(02)00813-5
+          <string-name>
+            <surname>Parmesan</surname>
+            <given-names>C</given-names>
+          </string-name>
+          (
+          <year>2006</year>
+          )
+          <article-title>Ecological and Evolutionary Responses to Recent Climate Change</article-title>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <source>Annual Review of Ecology, Evolution, and Systematics</source>
+          <volume>37</volume>
+          :
+          <fpage>637</fpage>
+          ‑
+          <lpage>669</lpage>
+          . DOI: 10.1146/ annurev.ecolsys.
+          <volume>37</volume>
+          .091305.110100
+          <string-name>
+            <surname>Pereira</surname>
+            <given-names>HM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Ferrier</surname>
+            <given-names>S</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Walters</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Geller</surname>
+            <given-names>GN</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Jongman</surname>
+            <given-names>RHG</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Scholes</surname>
+            <given-names>RJ</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Bruford</surname>
+            <given-names>MW</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Brummitt</surname>
+            <given-names>N</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Butchart</surname>
+            <given-names>SHM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Cardoso</surname>
+            <given-names>AC</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Coops</surname>
+            <given-names>NC</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Dulloo</surname>
+            <given-names>E</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Faith</surname>
+            <given-names>DP</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Freyhof</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Gregory</surname>
+            <given-names>RD</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Heip</surname>
+            <given-names>C</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Höft</surname>
+            <given-names>R</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Hurtt</surname>
+            <given-names>G</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Jetz</surname>
+            <given-names>W</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Karp</surname>
+            <given-names>DS</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>McGeoch</surname>
+            <given-names>MA</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Obura</surname>
+            <given-names>D</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Onoda</surname>
+            <given-names>Y</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Pettorelli</surname>
+            <given-names>N</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Reyers</surname>
+            <given-names>B</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Sayre</surname>
+            <given-names>R</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Scharlemann</surname>
+            <given-names>JPW</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Stuart</surname>
+            <given-names>SN</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Turak</surname>
+            <given-names>E</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Walpole</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Wegmann</surname>
+            <given-names>M</given-names>
+          </string-name>
+          (
+          <year>2013</year>
+          ) Essential Biodiversity Variables.
+          <source>Science</source>
+          <volume>339</volume>
+          (
+          <issue>6117</issue>
+          ):
+          <fpage>277</fpage>
+          ‑
+          <lpage>278</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          DOI: 10.1126/science.1229931
+          <string-name>
+            <surname>Reading</surname>
+            <given-names>C</given-names>
+          </string-name>
+          (
+          <year>1998</year>
+          )
+          <article-title>Interspecific spawning between Common frogs (Rana temporaria) and Common toads (Bufo bufo)</article-title>
+          .
+          <source>Journal of Zoology</source>
+          <volume>203</volume>
+          :
+          <fpage>95</fpage>
+          ‑
+          <lpage>101</lpage>
+          . DOI: 10.1111/ j.1469-
+          <fpage>7998</fpage>
+          .
+          <year>1984</year>
+          .tb06046.x
+          <string-name>
+            <surname>Reh</surname>
+            <given-names>W</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Seitz</surname>
+            <given-names>A</given-names>
+          </string-name>
+          (
+          <year>1990</year>
+          )
+          <article-title>The influence of land use on the genetic structure of populations of the common frog Rana temporaria</article-title>
+          .
+          <source>Biological Conservation</source>
+          <volume>54</volume>
+          (
+          <issue>3</issue>
+          ):
+          <fpage>239</fpage>
+          ‑
+          <lpage>249</lpage>
+          . DOI: 10.1016/
+          <fpage>0006</fpage>
+          -3207(90)
+          <fpage>90054</fpage>
+          -S Ronce O (
+          <year>2007</year>
+          )
+          <article-title>How Does It Feel to Be like a Rolling Stone? Ten Questions about Dispersal Evolution</article-title>
+          .
+          <source>Annual Review of Ecology, Evolution and Systematics</source>
+          <volume>38</volume>
+          :
+          <fpage>231</fpage>
+          ‑
+          <lpage>253</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          DOI: 10.1146/annurev.ecolsys.
+          <volume>38</volume>
+          .091206.095611
+          <string-name>
+            <surname>Sjögren-Gulve</surname>
+            <given-names>P</given-names>
+          </string-name>
+          (
+          <year>1994</year>
+          )
+          <article-title>Distribution and extinction patternswithin a northern metapopulation of the pool frog, Rana lessonae</article-title>
+          .
+          <source>Ecology</source>
+          <volume>75</volume>
+          :
+          <fpage>1357</fpage>
+          ‑
+          <lpage>1367</lpage>
+          . DOI: 10.2307/1937460
+          <string-name>
+            <surname>Smith</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Green</surname>
+            <given-names>D</given-names>
+          </string-name>
+          (
+          <year>2005</year>
+          )
+          <article-title>Dispersal and the metapopulation paradigm in amphibian ecology and conservation: Are all amphibian populations metapopulations?</article-title>
+          <source>Ecography</source>
+          <volume>28</volume>
+          (
+          <issue>1</issue>
+          ):
+          <fpage>110</fpage>
+          ‑
+          <lpage>128</lpage>
+          . DOI: 10.1111/j.0906-
+          <fpage>7590</fpage>
+          .
+          <year>2005</year>
+          .04042.x
+          <string-name>
+            <surname>Stuart</surname>
+            <given-names>S</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Chanson</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Cox</surname>
+            <given-names>N</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Young</surname>
+            <given-names>B</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Rodrigues</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Fischman</surname>
+            <given-names>D</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Waller</surname>
+            <given-names>R</given-names>
+          </string-name>
+          (
+          <year>2004</year>
+          )
+          <article-title>Status and trends of amphibian declines and extinctions worldwide</article-title>
+          .
+          <source>Science</source>
+          <volume>306</volume>
+          :
+          <fpage>1783</fpage>
+          ‑
+          <lpage>1786</lpage>
+          . DOI: 10.1126/science.1103538
+          <string-name>
+            <surname>Sutherland</surname>
+            <given-names>G</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Harestad</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Price</surname>
+            <given-names>K</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Lertzman</surname>
+            <given-names>K</given-names>
+          </string-name>
+          (
+          <year>2000</year>
+          )
+          <article-title>Scaling of natal dispersal distances in terrestrial birds and mammals</article-title>
+          .
+          <source>Conservation Ecology</source>
+          <volume>4</volume>
+          (
+          <issue>1</issue>
+          ):
+          <fpage>1</fpage>
+          ‑
+          <lpage>16</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Temple</surname>
+            <given-names>H</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Cox</surname>
+            <given-names>N</given-names>
+          </string-name>
+          (
+          <year>2009</year>
+          )
+          <article-title>European Red List of Amphibians</article-title>
+          . Office for Official Publications of the European Communitie,
+          <fpage>44</fpage>
+          pp.
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Trakhtenbrot</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Nathan</surname>
+            <given-names>R</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Perry</surname>
+            <given-names>G</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Richardson</surname>
+            <given-names>D</given-names>
+          </string-name>
+          (
+          <year>2005</year>
+          )
+          <article-title>The importance of long- distance dispersal in biodiversity conservation</article-title>
+          .
+          <source>Diversity and Distributions</source>
+          <volume>11</volume>
+          (
+          <issue>2</issue>
+          ):
+          <fpage>173</fpage>
+          ‑
+          <lpage>181</lpage>
+          . DOI: 10.1111/j.1366-
+          <fpage>9516</fpage>
+          .
+          <year>2005</year>
+          .00156.x
+          <string-name>
+            <surname>Walker</surname>
+            <given-names>S</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Bosch</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Gomez</surname>
+            <given-names>V</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Garner</surname>
+            <given-names>T</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Cunningham</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Schmeller</surname>
+            <given-names>D</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Ninyerola</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Henk</surname>
+            <given-names>D</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Ginestet</surname>
+            <given-names>C</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Arthur</surname>
+            <given-names>C</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Fisher</surname>
+            <given-names>M</given-names>
+          </string-name>
+          (
+          <year>2010</year>
+          )
+          <article-title>Factors driving pathogenicity vs</article-title>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <article-title>prevalence of amphibian panzootic chytridiomycosis in Iberia</article-title>
+          .
+          <source>Ecology Letters</source>
+          <volume>13</volume>
+          :
+          <fpage>372</fpage>
+          ‑
+          <lpage>382</lpage>
+          . DOI: 10.1111/j.1461-
+          <fpage>0248</fpage>
+          .
+          <year>2009</year>
+          .01434.x Authors: Trochet A,
+          <string-name>
+            <surname>Moulherat</surname>
+            <given-names>S</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Calvez</surname>
+            <given-names>O</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Schmeller</surname>
+            <given-names>DS</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Clobert</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Stevens</surname>
+            <given-names>VM</given-names>
+          </string-name>
+          <article-title>Data type: life history traits Brief description: Summary of morphometric and life-history traits for 86 European amphibian species. Values expected for the life-histories have been averaged between studies (i.e. between populations)</article-title>
+          .
+          <article-title>NA means that data were not available in the literature</article-title>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <source>Filename: European_Amphibians_Database3.xlsx - Download file (113.67 kb) Authors: Trochet A</source>
+          ,
+          <string-name>
+            <surname>Moulherat</surname>
+            <given-names>S</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Calvez</surname>
+            <given-names>O</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Schmeller</surname>
+            <given-names>DS</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Clobert</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <source>Stevens VM Data type: xls Filename: References.xlsx - Download file (34.82 kb)</source>
+        </mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

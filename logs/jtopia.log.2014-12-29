@@ -1,0 +1,11 @@
+2014-12-29 16:48:26 TermsExtractor [INFO] Using English Lexicon POS tagger..
+2014-12-29 16:48:26 DefaultTagger [ERROR] java.io.FileNotFoundException: model\default\english-lexicon.txt (Das System kann den angegebenen Pfad nicht finden)
+java.io.FileNotFoundException: model\default\english-lexicon.txt (Das System kann den angegebenen Pfad nicht finden)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at com.sree.textbytes.jtopia.tagger.LexiconTagger.initialize(LexiconTagger.java:35)
+	at com.sree.textbytes.jtopia.TermsExtractor.performTermExtraction(TermsExtractor.java:37)
+	at com.sree.textbytes.jtopia.TermsExtractor.extractTerms(TermsExtractor.java:21)
+	at hms.extractor.KeywordExtractor.extractKeywords(KeywordExtractor.java:26)
+	at hms.extractor.KeywordExtractor.main(KeywordExtractor.java:33)

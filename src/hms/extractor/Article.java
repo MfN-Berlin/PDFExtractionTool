@@ -1,6 +1,8 @@
 package hms.extractor;
 
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 public class Article {
 	
@@ -14,6 +16,8 @@ public class Article {
 	private List<String> predefinedKeywords;
 	private List<String> extractedKeywords;
 	private String language;
+	private  Map<String, Set<String>> namedEntities;
+	
 	public String getTitle() {
 		return title;
 	}
@@ -76,6 +80,12 @@ public class Article {
 	}
 	
 	
+	public Map<String, Set<String>> getNamedEntities() {
+		return namedEntities;
+	}
+	public void setNamedEntities(Map<String, Set<String>> namedEntities) {
+		this.namedEntities = namedEntities;
+	}
 	@Override
 	public String toString() {
 		

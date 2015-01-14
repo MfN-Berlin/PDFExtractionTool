@@ -1,13 +1,18 @@
 package hms.extractor;
 
 import hms.languageidentification.TextLanguageIdentifier;
+import hms.languageidentification.util.CollectionsUtil;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -23,12 +28,16 @@ import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang.StringUtils;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
+
+
+
 
 import com.sree.textbytes.jtopia.Configuration;
 import com.sree.textbytes.jtopia.TermDocument;
@@ -98,7 +107,7 @@ public class ArticleObjectCreator {
 		article.setLanguage(lang);
 		
 		//Extract Keywords
-		List<String> keywordList = extractKeywords(article.getContents(), article.getLanguage(), 15);
+		List<String> keywordList = KeywordExtractor.extractKeywords(article.getContents(), article.getLanguage(), 15);
 		article.setExtractedKeywords(keywordList);
 		
 		return this.article;
@@ -117,44 +126,49 @@ public class ArticleObjectCreator {
 	
 		//Identify the language of the article
 		TextLanguageIdentifier tli = new TextLanguageIdentifier();
-		String lang = tli.identifyLanguage(article.getAbstrakt());
+		String lang = "eng"; //default language
+		if(article.getAbstrakt().length() > 300){
+			lang = tli.identifyLanguage(article.getAbstrakt());
+		}
+		else if(article.getContents().length() > 800){ 
+			lang = tli.identifyLanguage(article.getContents().substring(0, 800));
+		}
+
+		//TODO just for the scanned literature case
+		Set<String> acceptedLangSet = new HashSet<String>();
+		
+		acceptedLangSet.add("English");
+		acceptedLangSet.add("German");
+		acceptedLangSet.add("French");
+		
+		if(!acceptedLangSet.contains(lang) ){
+			
+			lang = "English";
+
+		}
+		
 		article.setLanguage(lang);
 		
-		//Extract Keywords
-		List<String> keywordList = extractKeywords(article.getContents(), article.getLanguage(), 15);
-		article.setExtractedKeywords(keywordList);
+
+
+		
+		if(article.getContents()!=null){
+			//Extract Keywords
+			List<String> keywordList = KeywordExtractor.extractKeywords(article.getContents(), article.getLanguage(), 15);
+			article.setExtractedKeywords(keywordList);
+			
+			//Extract NamedEntities
+			Map<String, Set<String>> namedEntities = NERClassifier.extractNER(article.getContents(),article.getLanguage());
+			article.setNamedEntities(namedEntities);
+			
+		}
+		
 		
 		return this.article;
 	}
 	
 	
-	public List<String> extractKeywords(String text, String lang, int topN) {
-		
-		if(lang.equals("eng")){
-			Configuration.setTaggerType("openNLP");// "default" for lexicon POS tagger and "openNLP" for openNLP POS     tagger
-			Configuration.setModelFileLocation("jtopia/model/openNLP/en-pos-maxent.bin");
-
-		}
-			
-		Configuration.setSingleStrength(3);
-		Configuration.setNoLimitStrength(2);
-		TermsExtractor termExtractor = new TermsExtractor();
-		TermDocument termDocument = new TermDocument();
-		termDocument = termExtractor.extractTerms(text);
-		int maxNrKeyowrds = Math.min(topN,termDocument.getFinalFilteredTerms().size());
-
-		List<String> keywords = new ArrayList<String>();
 	
-		for(String keyword : termDocument.getFinalFilteredTerms().keySet()) {
-
-			keywords.add(keyword);
-			if (keywords.size() == maxNrKeyowrds)
-					 return keywords;
-			}
-		
-		return null;
-
-	}
 	
 	
 	
@@ -411,7 +425,7 @@ public class ArticleObjectCreator {
 	/**
 	 * Generate SOLR conform XML file from an article object
 	 */
-	public void writeArticleAsSolrXML(String targetFilePath){
+	public void writeArticleAsSolrXML(String orgPDFFilePath, String targetFilePath){
 		
 		try {
 			DocumentBuilder docBuilder = factory.newDocumentBuilder();
@@ -423,11 +437,22 @@ public class ArticleObjectCreator {
 			Element docElement = doc.createElement("doc");
 			rootElement.appendChild(docElement);
 			
+			Element idField = doc.createElement("field");
+			idField.setAttribute("name", "id");
+			idField.appendChild(doc.createTextNode(orgPDFFilePath));
+			docElement.appendChild(idField);
+			
 			
 			Element fileLocField = doc.createElement("field");
 			fileLocField.setAttribute("name", "source-file");
-			fileLocField.appendChild(doc.createTextNode(this.xmlFilePath));
+			fileLocField.appendChild(doc.createTextNode(orgPDFFilePath));
 			docElement.appendChild(fileLocField);
+			
+			
+			Element xmlLocField = doc.createElement("field");
+			xmlLocField.setAttribute("name", "xml-file");
+			xmlLocField.appendChild(doc.createTextNode(this.xmlFilePath));
+			docElement.appendChild(xmlLocField);
 			
 			
 			Element langField = doc.createElement("field");
@@ -444,7 +469,13 @@ public class ArticleObjectCreator {
 			
 			Element articleTitleField = doc.createElement("field");
 			articleTitleField.setAttribute("name", "article-title");
-			articleTitleField.appendChild(doc.createTextNode(this.article.getTitle()));
+			String title = this.article.getTitle();
+//			TODO Just for the literature scan
+			if(title == null || title.equals("")){
+				title = orgPDFFilePath.substring(orgPDFFilePath.lastIndexOf("_")+1, orgPDFFilePath.lastIndexOf("."));
+				title = StringUtils.normalizeSpace(title);
+			}
+			articleTitleField.appendChild(doc.createTextNode(title));
 			docElement.appendChild(articleTitleField);
 			
 			
@@ -454,20 +485,59 @@ public class ArticleObjectCreator {
 			docElement.appendChild(abstractTitleField);
 			
 		
-			
-			
-			for(String author : this.article.getAuthors()){
+			//TODO Just for the literature scan
+			if(this.article.getAuthors() == null || this.article.getAuthors().size() == 0){
+				String fileName = orgPDFFilePath.substring(orgPDFFilePath.lastIndexOf("\\")+1, orgPDFFilePath.lastIndexOf("."));
+				String author = fileName.substring(0, fileName.indexOf("_"));
+				author = StringUtils.normalizeSpace(author).replace("&", ", ");
 				Element authorField = doc.createElement("field");
 				authorField.setAttribute("name", "author");
 				authorField.appendChild(doc.createTextNode(author));
 				docElement.appendChild(authorField);
+			}
+			
+			else{
+				for(String author : this.article.getAuthors()){
+					Element authorField = doc.createElement("field");
+					authorField.setAttribute("name", "author");
+					authorField.appendChild(doc.createTextNode(author));
+					docElement.appendChild(authorField);
+					
+				}
+			}
+			
+			for(String namedEntityType : this.article.getNamedEntities().keySet()){
 				
+				Set<String> namedEntityList = this.article.getNamedEntities().get(namedEntityType);
+				
+				for(String namedEntity : namedEntityList){
+					
+					Element namedEntityField = doc.createElement("field");
+					if(namedEntityType.equals("I-PER"))
+						namedEntityType = NERTypes.PERSON;
+					else if(namedEntityType.equals("I-LOC")){
+						namedEntityType = NERTypes.LOCATION;
+					}
+					else if(namedEntityType.equals("I-ORG")){
+						namedEntityType = NERTypes.ORGANIZATION;
+
+					}
+					else if(namedEntityType.equals("I-MISC")){
+						continue;
+					}
+					namedEntityField.setAttribute("name", namedEntityType);
+					namedEntityField.appendChild(doc.createTextNode(namedEntity));
+					docElement.appendChild(namedEntityField);
+				}
+			
 			}
 			
 			Element contentField = doc.createElement("field");
 			contentField.setAttribute("name", "content");
 			contentField.appendChild(doc.createTextNode(this.article.getContents()));
 			docElement.appendChild(contentField);
+			
+			
 			
 			for(ReferencedArticle refArcticle : this.article.getReferences()){
 				Element refField = doc.createElement("field");
@@ -533,9 +603,6 @@ public class ArticleObjectCreator {
 //		System.out.println(aoc3.extractCermineReferences());
 //		System.out.println(aoc3.extractCermineContents());
 		
-		
-		
-				
 		
 	}
 }

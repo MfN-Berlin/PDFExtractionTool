@@ -16,16 +16,16 @@ import org.apache.commons.io.filefilter.TrueFileFilter;
  *
  */
 
-public class FullProcessor {
+public class PDFStructuredInformationExtractor {
 
 	private String articleDir;
 	private String outputDir;
 
-	public FullProcessor() {
+	public PDFStructuredInformationExtractor() {
 		super();
 	}
 
-	public FullProcessor(String articleDir, String outputDir) {
+	public PDFStructuredInformationExtractor(String articleDir, String outputDir) {
 		super();
 		this.articleDir = articleDir;
 		this.outputDir = outputDir;
@@ -105,7 +105,7 @@ public class FullProcessor {
 	
 	//Example usage
 	public static void main(String[] args) {
-		FullProcessor fp = new FullProcessor("TestDocs/","TestDocs/");
+		PDFStructuredInformationExtractor fp = new PDFStructuredInformationExtractor("TestDocs/","TestDocs/");
 		fp.startProcessing();
 	}
 

@@ -58,6 +58,9 @@ public class ArticleObjectCreator {
 	private XPath xPath;
 	private Article article ;
 	
+	/**
+	 * Initialize an XML DOM Object.
+	 */
 	private void init(){
 		
 		 try {
@@ -79,41 +82,24 @@ public class ArticleObjectCreator {
 		
 	}
 
+	/**
+	 * To create an Article object, the metadata extracted using Cermine library are read first.
+	 * @param xmlFilePath The path of Cermine XML file.
+	 */
 	public ArticleObjectCreator(String xmlFilePath) {
 		this.xmlFilePath = xmlFilePath;
 		init();
 	}
-	
-	public Article createArticleFromSolrXML(){
-		
-		this.article = new Article();
-		
-		String articleTitle = extractSolrTitle();
-		List<String> authorList = extractSolrAuthors();
-		List<String> refList = extractSolrReferences();
-		String content = extractSolrContents();
-		String abstrakt = extractSolrAbstract();
-			
-		article.setTitle(articleTitle);
-		article.setAbstrakt(abstrakt);
-		article.setAuthors(authorList);
-		article.setContents(content);
-//		article.setReferences(refList);
-	
-		//Identify the language of the article
-		
-		TextLanguageIdentifier tli = new TextLanguageIdentifier();
-		String lang = tli.identifyLanguage(article.getAbstrakt());
-		article.setLanguage(lang);
-		
-		//Extract Keywords
-		List<String> keywordList = KeywordExtractor.extractKeywords(article.getContents(), article.getLanguage(), 15);
-		article.setExtractedKeywords(keywordList);
-		
-		return this.article;
-	}
 
 	
+	/**
+	 * Based on the metadata extracted using Cermine, an Article object is created.
+	 * The metadata are furthered enriched with information:
+	 * 1- about the language in which the article was written
+	 * 2- keywords extracted from the article contents and based on the identified language
+	 * 3- named entities extracted from the article contents and based on the identified language 
+	 * @return The final Article object
+	 */
 	public Article createArticleFromCermineXML(){
 		
 		this.article = new Article();
@@ -150,8 +136,6 @@ public class ArticleObjectCreator {
 		article.setLanguage(lang);
 		
 
-
-		
 		if(article.getContents()!=null){
 			//Extract Keywords
 			List<String> keywordList = KeywordExtractor.extractKeywords(article.getContents(), article.getLanguage(), 15);
@@ -169,91 +153,14 @@ public class ArticleObjectCreator {
 	
 	
 	
-	
-	
-	
-	
-	//XML Metadata extracted from solr file
-	private String extractSolrAbstract() {
-		String abstrakt = null;
-		String expression = "/add/doc/field[@name='abstract']";
-		try {
-			abstrakt = xPath.compile(expression).evaluate(document);
-		} catch (XPathExpressionException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		return abstrakt;
-	}
+	//**** Extract metadata from Cermine XML. Cermine extract the metadata of PDF documents and output them in XML  
+	//     format according to the NLM standard (http://dtd.nlm.nih.gov/) ********************//
 
-	private String extractSolrContents() {
-		String contents = null;
-		String expression = "/add/doc/field[@name='content']";
-		try {
-			contents = xPath.compile(expression).evaluate(document);
-		} catch (XPathExpressionException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		return contents;
-	}
-
-	private List<String> extractSolrReferences() {
-		
-		List<String> refList = new ArrayList<String>();
-		String expression = "/add/doc/field[@name='reference']";
-		//read a nodelist using xpath
-		try {
-			NodeList refNodeList = (NodeList) xPath.compile(expression).evaluate(document, XPathConstants.NODESET);
-			
-			for (int i = 0; i < refNodeList.getLength(); i++) {
-				
-				String ref = refNodeList.item(i).getTextContent();
-				refList.add(ref);
-			}
-		} catch (XPathExpressionException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		return refList;
-	}
-
-	private List<String> extractSolrAuthors() {
-		List<String> authorList = new ArrayList<String>();
-		String expression = "/add/doc/field[@name='author']";
-		//read a nodelist using xpath
-		try {
-			NodeList refNodeList = (NodeList) xPath.compile(expression).evaluate(document, XPathConstants.NODESET);
-			
-			for (int i = 0; i < refNodeList.getLength(); i++) {
-				
-				String ref = refNodeList.item(i).getTextContent();
-				authorList.add(ref);
-			}
-		} catch (XPathExpressionException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		return authorList;
-	}
-
-	private String extractSolrTitle() {
-		String articleTitle = null;
-		String expression = "/add/doc/field[@name='article-title']";
-		try {
-			articleTitle = xPath.compile(expression).evaluate(document);
-		} catch (XPathExpressionException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		return articleTitle;
-	}
 	
-	
-	//Extract Metadata from Cermine XML
-
+	/**
+	 * Extract article title using XPath from NLM XML 
+	 * @return Title of the article
+	 */
 	public String extractCermineTitle(){
 		
 		String articleTitle = null;
@@ -271,6 +178,10 @@ public class ArticleObjectCreator {
 		
 	}
 	
+	/**
+	 * Extract article abstract using XPath from NLM XML 
+	 * @return Abstract of the article
+	 */
 	public String extractCermineAbstact(){
 		
 		String abstrakt = null;
@@ -287,6 +198,11 @@ public class ArticleObjectCreator {
 		return abstrakt;
 		
 	}
+	
+	/**
+	 * Extract author's list using XPath from NLM XML 
+	 * @return List of article's authors
+	 */
 	public List<String> extractCerminAuthors() {
 		
 		List<String> authorList = new ArrayList<String>();
@@ -308,6 +224,30 @@ public class ArticleObjectCreator {
 		return authorList;
 	}
 	
+	
+	/**
+	 * Extract the complete contents of the article form the Cermine XML file
+	 * @return Article contents
+	 */
+	public String extractCermineContents() {
+		String contents = null;
+		String expression = "/article/body";
+		try {
+			contents = xPath.compile(expression).evaluate(document);
+			if(contents !=null){
+				contents = StringUtils.normalizeSpace(contents);
+			}
+		} catch (XPathExpressionException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return contents;
+	}
+	
+	/**
+	 * Extract the list of referenced articles using XPath from NLM XML 
+	 * @return List of referenced articles
+	 */
 	public List<ReferencedArticle> extractCermineReferences() {
 		
 		List<ReferencedArticle> refList = new ArrayList<ReferencedArticle>();
@@ -340,7 +280,13 @@ public class ArticleObjectCreator {
 		return refList;
 	}
 	
-	
+	/**
+	 * Extract detailed information about the cited articles from the Cermine XML.
+	 * The methods expect a MixedCitation node as input and creates a ReferencedArticle object which contains
+	 * information about the authors of the cited article, the year of publication, the volume,...
+	 * @param citationNode MixedCiation XML Node
+	 * @return ReferencedArticle object
+	 */
 	public ReferencedArticle extractCermineReference(Node citationNode) {
 		
 		ReferencedArticle refArticle = new ReferencedArticle();
@@ -390,7 +336,12 @@ public class ArticleObjectCreator {
 				
 	}
 
-	//Extract author name from mixed-citation node
+	/**
+	 * Extract authors list for a cited article.
+	 * @param citationNode The mixed citation node
+	 * @return Author's list
+	 * @throws XPathExpressionException
+	 */
 	private List<String> extractAuthorName(Node citationNode)	throws XPathExpressionException {
 		
 		List<String> authorList = new ArrayList<String>();
@@ -404,26 +355,19 @@ public class ArticleObjectCreator {
 		return authorList;
 	}
 	
-	
-	
-	public String extractCermineContents() {
-		String contents = null;
-		String expression = "/article/body";
-		try {
-			contents = xPath.compile(expression).evaluate(document);
-			if(contents !=null){
-				contents = StringUtils.normalizeSpace(contents);
-			}
-		} catch (XPathExpressionException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		return contents;
-	}
+
 	
 	
 	/**
-	 * Generate SOLR conform XML file from an article object
+	 * Generate an XML representation for an article object. The XML conforms to Solr indexing requirements.
+	 * For each metadata entry an XML elements is generated according to the following syntax:
+	 * <field name="filedName">value</field> for example for the title on an article the following XML element is generated:
+	 * <field name="article-title">title of the article</field>
+	 * For multi-valued metadata like authors multiple XML elements are generated, e.g.:
+	 * <field name="author">first author</field>
+	 * <field name="author">second author</field>
+	 * @param orgPDFFilePath The location of the original PDF document from which the metadata are extracted
+	 * @param targetFilePath The location of the target XML file  
 	 */
 	public void writeArticleAsSolrXML(String orgPDFFilePath, String targetFilePath){
 		
@@ -582,27 +526,17 @@ public class ArticleObjectCreator {
 	
 	public static void main(String[] args) {
 		
-//		ArticleObjectCreator aoc = new ArticleObjectCreator("./xml/transformed/Liris-5791.xml");
-//		
-//		String title = aoc.extractSolrTitle();
-//		String abstakt = aoc.extractSolrAbstract();
-//		String content = aoc.extractSolrContents();
-//		System.out.println(title);
-//		System.out.println(abstakt);
-//		System.out.println(content);
-//		System.out.println(aoc.extractSolrReferences());
-//		System.out.println(aoc.extractSolrAuthors());
-//		System.out.println(aoc.extractKeywords(content, "English", 10));
+		//Example
+		//1-First extract metadata from a PDF article using Cermine extractor
+		String inputPDF = "TestDocs/paper7_cameraready.pdf";
+		String cermineXML = "TestDocs/paper7_cameraready.xml";
+		PdfExtractor.extractCermineXML(inputPDF, cermineXML);
+		
+		ArticleObjectCreator aoc = new ArticleObjectCreator(cermineXML);
+		aoc.createArticleFromCermineXML();
+		aoc.writeArticleAsSolrXML(inputPDF, "TestDocs/paper7_cameraready_solr.xml");
 		
 		
-		ArticleObjectCreator aoc3 = new ArticleObjectCreator("./temp/tempCermine.xml");
-//		System.out.println(aoc3.extractCermineTitle());
-		System.out.println(aoc3.extractCermineAbstact());
-//		System.out.println(aoc3.extractCerminAuthors());
-		aoc3.extractCermineReferences();
-//		System.out.println(aoc3.extractCermineReferences());
-//		System.out.println(aoc3.extractCermineContents());
-		
-		
+
 	}
 }

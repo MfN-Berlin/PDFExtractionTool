@@ -15,10 +15,10 @@ public class KeywordExtractor {
 	
 
 	/**
-	 * Extract keywords from a given text
-	 * @param text
-	 * @param lang
-	 * @param topN
+	 * Extract keywords from a given text using JTOPIA open source liberary (https://github.com/srijiths/jtopia/wiki)
+	 * @param text Input text
+	 * @param lang Text language
+	 * @param topN The total number of extracted keywords
 	 * @return
 	 */
 	public static List<String> extractKeywords(String text, String lang, int topN) {
@@ -26,10 +26,10 @@ public class KeywordExtractor {
 
 		 
 		 
-		if(text != null && text.length() >= 100){
+		if(text != null && text.length() >= 100){ //Ignore short texts
 	
 			Configuration.setTaggerType("Stanford");// "default" for lexicon POS tagger and "openNLP" for openNLP POS     tagger
-			
+			//The keyword extraction depends on the language of the text.
 			switch (lang) {
 			case "English":
 				Configuration.setModelFileLocation("jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger");

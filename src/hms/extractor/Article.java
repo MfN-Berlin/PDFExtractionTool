@@ -4,6 +4,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+/**
+ * Metadata about a scientific article
+ * @author Hatem Mousselly-Sergieh
+ *
+ */
 public class Article {
 	
 	private String title ;

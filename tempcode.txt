@@ -1,0 +1,107 @@
+	
+//	public Article createArticleFromSolrXML(){
+//		
+//		this.article = new Article();
+//		
+//		String articleTitle = extractSolrTitle();
+//		List<String> authorList = extractSolrAuthors();
+//		List<String> refList = extractSolrReferences();
+//		String content = extractSolrContents();
+//		String abstrakt = extractSolrAbstract();
+//			
+//		article.setTitle(articleTitle);
+//		article.setAbstrakt(abstrakt);
+//		article.setAuthors(authorList);
+//		article.setContents(content);
+////		article.setReferences(refList);
+//	
+//		//Identify the language of the article
+//		
+//		TextLanguageIdentifier tli = new TextLanguageIdentifier();
+//		String lang = tli.identifyLanguage(article.getAbstrakt());
+//		article.setLanguage(lang);
+//		
+//		//Extract Keywords
+//		List<String> keywordList = KeywordExtractor.extractKeywords(article.getContents(), article.getLanguage(), 15);
+//		article.setExtractedKeywords(keywordList);
+//		
+//		return this.article;
+//	}
+
+	//XML Metadata extracted from solr file
+	private String extractSolrAbstract() {
+		String abstrakt = null;
+		String expression = "/add/doc/field[@name='abstract']";
+		try {
+			abstrakt = xPath.compile(expression).evaluate(document);
+		} catch (XPathExpressionException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return abstrakt;
+	}
+
+	private String extractSolrContents() {
+		String contents = null;
+		String expression = "/add/doc/field[@name='content']";
+		try {
+			contents = xPath.compile(expression).evaluate(document);
+		} catch (XPathExpressionException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return contents;
+	}
+
+	private List<String> extractSolrReferences() {
+		
+		List<String> refList = new ArrayList<String>();
+		String expression = "/add/doc/field[@name='reference']";
+		//read a nodelist using xpath
+		try {
+			NodeList refNodeList = (NodeList) xPath.compile(expression).evaluate(document, XPathConstants.NODESET);
+			
+			for (int i = 0; i < refNodeList.getLength(); i++) {
+				
+				String ref = refNodeList.item(i).getTextContent();
+				refList.add(ref);
+			}
+		} catch (XPathExpressionException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return refList;
+	}
+
+	private List<String> extractSolrAuthors() {
+		List<String> authorList = new ArrayList<String>();
+		String expression = "/add/doc/field[@name='author']";
+		//read a nodelist using xpath
+		try {
+			NodeList refNodeList = (NodeList) xPath.compile(expression).evaluate(document, XPathConstants.NODESET);
+			
+			for (int i = 0; i < refNodeList.getLength(); i++) {
+				
+				String ref = refNodeList.item(i).getTextContent();
+				authorList.add(ref);
+			}
+		} catch (XPathExpressionException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return authorList;
+	}
+
+	private String extractSolrTitle() {
+		String articleTitle = null;
+		String expression = "/add/doc/field[@name='article-title']";
+		try {
+			articleTitle = xPath.compile(expression).evaluate(document);
+		} catch (XPathExpressionException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return articleTitle;
+	}

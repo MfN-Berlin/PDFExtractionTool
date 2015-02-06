@@ -1,0 +1,356 @@
+2015-01-12 09:05:29 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:05:29 DefaultTagger [INFO] Creating New Tagger from: jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:05:52 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:05:52 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:06:10 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:06:10 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:06:25 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:06:25 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:06:36 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:06:36 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:06:53 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:06:53 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:07:01 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:07:01 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:07:08 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:07:08 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:07:29 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:07:29 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:07:44 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:07:44 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:07:57 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:07:57 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/german-fast.tagger
+2015-01-12 09:08:25 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:08:26 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:08:54 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:08:54 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:09:12 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:09:12 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/german-fast.tagger
+2015-01-12 09:09:27 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:09:28 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:09:36 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:09:36 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:09:42 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:09:42 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:09:50 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:09:50 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:11:03 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:11:03 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:11:26 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:11:27 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/german-fast.tagger
+2015-01-12 09:11:31 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:11:31 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:11:37 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:11:37 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/german-fast.tagger
+2015-01-12 09:11:47 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:11:47 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:12:05 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:12:06 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/german-fast.tagger
+2015-01-12 09:12:13 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:12:14 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:12:25 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:12:25 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/german-fast.tagger
+2015-01-12 09:12:36 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:12:36 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:12:49 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:12:49 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:12:52 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:12:52 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:12:54 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:12:54 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:13:00 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:13:00 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:13:13 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:13:13 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:13:25 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:13:25 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:13:28 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:13:28 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:13:42 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:13:42 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:14:19 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:14:19 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:14:32 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:14:32 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:15:34 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:15:34 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:15:54 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:15:54 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:16:06 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:16:06 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:16:27 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:16:27 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:17:06 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:17:06 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:17:19 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:17:19 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:17:34 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:17:34 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:17:48 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:17:48 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:17:52 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:17:52 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:18:22 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:18:22 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:18:25 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:18:25 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:18:27 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:18:27 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:18:48 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:18:48 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:19:31 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:19:31 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:19:47 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:19:47 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/german-fast.tagger
+2015-01-12 09:19:55 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:19:55 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/german-fast.tagger
+2015-01-12 09:20:13 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:20:13 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:20:18 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:20:18 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:20:22 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:20:22 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:20:36 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:20:36 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:20:54 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:20:54 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:21:08 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:21:08 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:21:18 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:21:18 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:21:26 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:21:26 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:21:37 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:21:37 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:21:46 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:21:46 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:21:51 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:21:51 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:22:00 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:22:00 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:22:02 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:22:02 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:22:11 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:22:11 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:22:24 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:22:24 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:22:32 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:22:32 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:22:49 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:22:49 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:23:00 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:23:00 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:23:04 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:23:04 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:23:08 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:23:08 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:23:11 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:23:11 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:23:31 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:23:31 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:23:37 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:23:37 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:23:47 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:23:47 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:23:57 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:23:57 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:24:14 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:24:14 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:24:31 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:24:31 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:24:41 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:24:41 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:24:51 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:24:51 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:25:31 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:25:31 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:25:41 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:25:41 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:25:47 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:25:47 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:26:01 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:26:01 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:26:05 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:26:05 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/german-fast.tagger
+2015-01-12 09:26:10 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:26:11 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:26:15 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:26:15 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:26:31 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:26:31 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:26:48 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:26:48 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:26:57 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:26:57 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:27:06 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:27:06 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:27:27 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:27:27 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:27:36 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:27:36 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:27:48 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:27:48 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:27:58 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:27:58 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:28:06 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:28:06 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:28:17 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:28:17 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:28:50 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:28:50 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:29:07 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:29:07 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:29:21 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:29:21 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:29:36 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:29:36 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:29:41 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:29:41 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/french.tagger
+2015-01-12 09:29:52 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:29:53 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:30:23 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:30:23 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:30:39 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:30:39 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:31:09 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:31:09 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:32:41 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:32:41 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:32:59 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:32:59 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:33:07 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:33:07 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:33:10 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:33:10 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:33:14 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:33:14 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:33:22 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:33:22 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:33:37 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:33:37 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:33:41 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:33:41 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:33:47 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:33:47 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/german-fast.tagger
+2015-01-12 09:33:50 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:33:50 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:34:00 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:34:00 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:34:06 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:34:06 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:34:15 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:34:15 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:34:26 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:34:26 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:34:36 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:34:36 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:34:50 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:34:50 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:35:47 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:35:47 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:35:55 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:35:55 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:36:05 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:36:05 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:36:09 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:36:09 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:36:17 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:36:17 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 09:36:25 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 09:36:25 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 10:08:25 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:08:25 DefaultTagger [INFO] Creating New Tagger from: jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:08:57 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:08:57 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 10:09:05 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:09:05 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:09:13 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:09:13 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:09:21 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:09:21 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:09:25 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:09:25 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:10:06 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:10:06 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:10:19 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:10:19 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:10:31 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:10:31 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:11:17 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:11:17 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:11:36 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:11:37 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 10:13:00 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:13:00 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:14:30 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:14:31 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 10:14:49 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:14:50 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:14:57 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:14:57 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:15:09 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:15:09 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 10:15:18 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:15:18 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:15:24 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:15:25 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 10:15:28 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:15:28 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:15:30 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:15:30 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:15:33 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:15:33 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:15:44 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:15:44 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:16:06 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:16:06 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:16:18 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:16:18 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:16:31 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:16:31 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 10:16:36 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:16:36 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:16:46 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:16:46 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:17:05 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:17:05 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:17:17 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:17:17 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:17:23 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:17:23 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:17:27 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:17:27 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:17:33 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:17:33 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/french.tagger
+2015-01-12 10:17:35 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:17:35 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:17:37 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:17:37 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:17:40 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:17:40 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:17:46 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:17:46 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:17:52 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:17:53 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 10:18:11 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:18:11 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-01-12 10:18:27 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:18:27 DefaultTagger [INFO] Creating New Tagger from because the model has changed:  jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:18:40 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:18:40 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:18:50 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:18:50 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:18:55 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:18:55 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:19:02 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:19:02 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:19:12 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:19:12 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:19:19 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:19:19 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:19:24 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:19:24 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:19:29 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:19:29 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/german-fast.tagger
+2015-01-12 10:30:41 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-01-12 10:30:41 DefaultTagger [INFO] Creating New Tagger from: jtopia/model/stanford/german-fast.tagger

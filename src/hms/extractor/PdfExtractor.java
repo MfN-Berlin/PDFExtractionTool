@@ -42,11 +42,19 @@ public class PdfExtractor {
 		
 
 	}
-	public static void extractSolrXML(String docPath, String cermine2SolrXSLTFilePath, String xmlOutputPath){
+	
+	/**
+	 * Extract the contents of an article in PDF form. The extracted data are structured according 
+	 * to the Cermine XML schema and then converted using XSLT into Solr XML format
+	 * @param pdfFilePath The path of the input PDF document
+	 * @param cermine2SolrXSLTFilePath Path to the XSLT transformation file
+	 * @param xmlOutputPath Output in Solr XML format
+	 */
+	public static void extractSolrXML(String pdfFilePath, String cermine2SolrXSLTFilePath, String xmlOutputPath){
 		
 		String tempCermineFile = "temp/tempCermine.xml" ;
 		
-		extractCermineXML(docPath, tempCermineFile);
+		extractCermineXML(pdfFilePath, tempCermineFile);
 		
 		
     	Stylizer.trasform(cermine2SolrXSLTFilePath, tempCermineFile, xmlOutputPath);

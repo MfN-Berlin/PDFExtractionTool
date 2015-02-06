@@ -19,8 +19,15 @@ public class NERClassifier {
 	static AbstractSequenceClassifier<CoreLabel> classifierEnglish;
 	static AbstractSequenceClassifier<CoreLabel> classifierGerman;
 
-	public static Map<String, Set<String>> extractNER(String example,
-			String Language) {
+	
+	
+	/**
+	 * Uses Stanford Named Entity Recognition library to extract named entity from a given text
+	 * @param text The input text
+	 * @param Language Text language
+	 * @return A map of named entity types (e.g. LOCATION, PERSON, ...) and the corresponding recognized entites
+	 */
+	public static Map<String, Set<String>> extractNER(String text,String Language) {
 
 		
 		AbstractSequenceClassifier<CoreLabel> calssifier;
@@ -49,12 +56,12 @@ public class NERClassifier {
 			}
 
 	
-			List<Triple<String, Integer, Integer>> triples = calssifier.classifyToCharacterOffsets(example);
+			List<Triple<String, Integer, Integer>> triples = calssifier.classifyToCharacterOffsets(text);
 
 			for (Triple<String, Integer, Integer> trip : triples) {
 
 				String clazz = trip.first;
-				String ne = example.substring(trip.second(), trip.third);
+				String ne = text.substring(trip.second(), trip.third);
 
 				if (namedEntityMap.containsKey(clazz)) {
 
@@ -75,6 +82,8 @@ public class NERClassifier {
 		return namedEntityMap;
 	}
 
+	
+	//Example usage
 	public static void main(String[] args) {
 		System.out.println(extractNER("Good morning Albert from Germany","English"));
 		System.out.println(extractNER("It rains very often in Germany. Google is great company","English"));

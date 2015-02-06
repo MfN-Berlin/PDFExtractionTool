@@ -46,6 +46,7 @@ import javax.xml.transform.stream.StreamSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.*;
 
+// XSLT transformer
 
 public class Stylizer {
     // Global value so it can be ref'd by the tree-adapter

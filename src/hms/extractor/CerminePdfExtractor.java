@@ -16,7 +16,7 @@ import org.jdom.output.XMLOutputter;
 import pl.edu.icm.cermine.PdfNLMContentExtractor;
 import pl.edu.icm.cermine.exception.AnalysisException;
 
-public class PdfExtractor {
+public class CerminePdfExtractor {
 
 	
 	/**

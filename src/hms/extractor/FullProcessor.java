@@ -86,7 +86,7 @@ public class FullProcessor {
 
 				System.out.println("Handling: " + pdfFilePath + " " + counter+ " /" + totalNrFiles);
 
-				PdfExtractor.extractCermineXML(pdfFilePath, xmlFileName);
+				CerminePdfExtractor.extractCermineXML(pdfFilePath, xmlFileName);
 
 				ArticleObjectCreator aoc = new ArticleObjectCreator(xmlFileName);
 

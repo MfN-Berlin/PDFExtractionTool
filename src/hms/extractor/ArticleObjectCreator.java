@@ -83,7 +83,7 @@ public class ArticleObjectCreator {
 	}
 
 	/**
-	 * To create an Article object, the metadata extracted using Cermine library are read first.
+	 * To create an Article object, structured information extracted using Cermine library are read first.
 	 * @param xmlFilePath The path of Cermine XML file.
 	 */
 	public ArticleObjectCreator(String xmlFilePath) {
@@ -530,7 +530,7 @@ public class ArticleObjectCreator {
 		//1-First extract metadata from a PDF article using Cermine extractor
 		String inputPDF = "TestDocs/paper7_cameraready.pdf";
 		String cermineXML = "TestDocs/paper7_cameraready.xml";
-		PdfExtractor.extractCermineXML(inputPDF, cermineXML);
+		CerminePdfExtractor.extractCermineXML(inputPDF, cermineXML);
 		
 		ArticleObjectCreator aoc = new ArticleObjectCreator(cermineXML);
 		aoc.createArticleFromCermineXML();

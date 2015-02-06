@@ -29,4 +29,4 @@ public class Test {
 
 To get an impression about how the output looks like, take a look on this <a href="http://liris.cnrs.fr/Documents/Liris-5791.pdf" target="_blank">PDF article</a> and the corresponding [XML file](/TestDocs/hms1_solr.xml).
 
-**Note** that the quality of the extracted information is dependant on the quality of the input pdf document. Furtheremore, the algorithms for keyword extraction and NER are not perfect. However, they can be tuned to achieve better results (refer to the original projects for more information).
+**Note** that the quality of the extracted information is dependant on the quality of the input pdf document. Furthermore, the algorithms for keyword extraction and NER are not perfect. However, they can be tuned to achieve better results (refer to the original projects for more information).

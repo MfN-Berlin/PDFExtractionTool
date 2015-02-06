@@ -27,4 +27,4 @@ public class Test {
 }
 ```
 
-To get an impression about how the output looks like, take a look on this [PDF article](/TestDocs/hms1.pdf) and the corresponding [XML file](/TestDocs/hms1_solr.xml).
+To get an impression about how the output looks like, take a look on this [PDF article]http://liris.cnrs.fr/Documents/Liris-5791.pdf) and the corresponding [XML file](/TestDocs/hms1_solr.xml).

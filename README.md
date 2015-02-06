@@ -15,12 +15,12 @@ Given an article in PDF format, first, Cermine is used to extract structured inf
 The following code explains how extract structured information stored in a given directory (e.g. /TestDocs). The resulting XML files are stored in the same directory.
 
 ```Java
-import hms.extractor.FullProcessor;
+import hms.extractor.PDFStructuredInformationExtractor;
 
 public class Test {
 	
 	public static void main(String[] args) {
-		FullProcessor fp = new FullProcessor("TestDocs/","TestDocs/");
+		PDFStructuredInformationExtractor fp = new PDFStructuredInformationExtractor("TestDocs/","TestDocs/");
 		fp.startProcessing();
 	}
 	

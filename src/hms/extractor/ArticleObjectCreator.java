@@ -7,6 +7,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.StringWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -17,6 +18,7 @@ import java.util.Set;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.OutputKeys;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerConfigurationException;
 import javax.xml.transform.TransformerException;
@@ -35,6 +37,8 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
+
+
 
 
 
@@ -494,15 +498,20 @@ public class ArticleObjectCreator {
 			// write the content into xml file
 			TransformerFactory transformerFactory = TransformerFactory.newInstance();
 			Transformer transformer = transformerFactory.newTransformer();
-			DOMSource source = new DOMSource(doc);
+	         transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+
 			
-			 FileOutputStream fos = new FileOutputStream(new File(targetFilePath));
-	         StreamResult result = new StreamResult(fos);
-	     
+			
+	         StreamResult result = new StreamResult(new StringWriter());
+	         DOMSource source = new DOMSource(doc);
+	         transformer.transform(source, result);
+	         System.out.println(result.getWriter().toString());
+			 FileUtils.writeStringToFile(new File(targetFilePath), result.getWriter().toString(),"UTF-8");
 			// Output to console for testing
 			// StreamResult result = new StreamResult(System.out);
 	 
-			transformer.transform(source, result);
+			
+			
 	 
 			System.out.println("File saved!");
 			
@@ -516,6 +525,9 @@ public class ArticleObjectCreator {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}

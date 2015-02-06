@@ -8,3 +8,11 @@
 2015-02-06 11:20:11 DefaultTagger [INFO] No need to create a new tagger since it's already loaded. Save some time ;-): jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
 2015-02-06 11:22:23 TermsExtractor [INFO] Using Stanford POS tagger..
 2015-02-06 11:22:23 DefaultTagger [INFO] Creating New Tagger from: jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-02-06 11:56:09 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-02-06 11:56:09 DefaultTagger [INFO] Creating New Tagger from: jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-02-06 11:58:25 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-02-06 11:58:25 DefaultTagger [INFO] Creating New Tagger from: jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-02-06 11:59:59 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-02-06 11:59:59 DefaultTagger [INFO] Creating New Tagger from: jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger
+2015-02-06 12:01:25 TermsExtractor [INFO] Using Stanford POS tagger..
+2015-02-06 12:01:25 DefaultTagger [INFO] Creating New Tagger from: jtopia/model/stanford/wsj-0-18-bidirectional-distsim.tagger

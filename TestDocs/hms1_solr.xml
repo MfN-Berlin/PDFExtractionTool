@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <add>
 <doc>
-<field name="id">C:\Users\localadmin\workspace\MyCerminePDFHandler\TestDocs\hms1.pdf</field>
-<field name="source-file">C:\Users\localadmin\workspace\MyCerminePDFHandler\TestDocs\hms1.pdf</field>
-<field name="xml-file">TestDocs/hms1_cermine.xml</field>
+<field name="id">/TestDocs/hms1.pdf</field>
+<field name="source-file">/TestDocs/hms1.pdf</field>
+<field name="xml-file">/TestDocs/hms1_solr.xml</field>
 <field name="language">English</field>
 <field name="auto-keywords">Number, Saliency Maps, Matching Recall, Keypoint Reduction Ratio, Drop, Training Dataset, SURF Descriptor, Purpose, Classes, Case, Saliency Map, SURF Keypoints, Image Features, Size, Problem</field>
 <field name="article-title">Improving SURF Image Matching Using Supervised Learning</field>
